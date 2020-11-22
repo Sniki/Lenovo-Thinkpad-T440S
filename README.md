@@ -79,6 +79,7 @@ There is not enough room to fit the full height so you will be required to place
 
 ### Credits
 [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
+
 [benbender](https://github.com/benbender) for **SSDT-BATX** and Touchscreen Gestures
 
 ### Work in Progress...
