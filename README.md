@@ -45,8 +45,9 @@ Procedures to be added soon...
 Users with Intel AC7260 cards can enjoy out of the box support for both Wireless and Bluetooth.
 Keep in mind that Airportitlwm/itlwm is still in early development and only `N` speeds are supported.
 
-#### DW1560, DW1830
+#### DW1560 & DW1830
 Users with one of these two cards first need to disable the intel kexts:
+
 `EFI/OC/Config.plist > Kernel > Add > Airportitlwm > Enabled = No`
 
 `EFI/OC/Config.plist > Kernel > Add > IntelBluetoothInjector > Enabled = No`
@@ -65,6 +66,8 @@ Then enable the corresponding kexts for those two cards:
 
 #### DW1820A
 This card uses the same kexts as DW1560, DW1830 but needs to disable ASPM to avoid freezes.
+Into `EFI/OC/Config.plist > DeviceProperties >` and add the following entry: `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
+and into the `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` entry add the device property `pci-aspm-default` (number) `0`
 
 #### BRCM4360NG
 This card is the best one you can find for the moment, it is the same as the Apple BCM94360CS2 which works natively but it does have a standard NGFF form factor.
@@ -75,4 +78,4 @@ In order to fit this one you will have to buy the NGFF adapter and the extending
 There is not enough room to fit the full height so you will be required to place it somewhere else.
 
 
-## Work in Progress...
+### Work in Progress...
