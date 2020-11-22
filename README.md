@@ -48,12 +48,19 @@ Keep in mind that Airportitlwm/itlwm is still in early development and only `N` 
 #### DW1560, DW1830
 Users with one of these two cards first need to disable the intel kexts:
 `EFI/OC/Config.plist > Kernel > Add > Airportitlwm > Enabled = No`
+
 `EFI/OC/Config.plist > Kernel > Add > IntelBluetoothInjector > Enabled = No`
+
 `EFI/OC/Config.plist > Kernel > Add > IntelBluetoothFirmware > Enabled = No`
+
 Then enable the corresponding kexts for those two cards:
+
 `EFI/OC/Config.plist > Kernel > Add > AirportBrcmFixup > Enabled = Yes`
+
 `EFI/OC/Config.plist > Kernel > Add > BrcmBluetoothInjector > Enabled = Yes`
+
 `EFI/OC/Config.plist > Kernel > Add > BrcmFirmwareData > Enabled = Yes`
+
 `EFI/OC/Config.plist > Kernel > Add > BrcmPatchRAM3 > Enabled = Yes`
 
 #### DW1820A
@@ -62,7 +69,7 @@ This card uses the same kexts as DW1560, DW1830 but needs to disable ASPM to avo
 #### BRCM4360NG
 This card is the best one you can find for the moment, it is the same as the Apple BCM94360CS2 which works natively but it does have a standard NGFF form factor.
 
-### BRCM94360CS2
+#### BRCM94360CS2
 This is the native Apple Wireless and Bluetooth card that can be found on MacBookPro(s).
 In order to fit this one you will have to buy the NGFF adapter and the extending cable module.
 There is not enough room to fit the full height so you will be required to place it somewhere else.
