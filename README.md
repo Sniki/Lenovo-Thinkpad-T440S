@@ -77,5 +77,8 @@ This is the native Apple Wireless and Bluetooth card that can be found on MacBoo
 In order to fit this one you will have to buy the NGFF adapter and the extending cable module.
 There is not enough room to fit the full height so you will be required to place it somewhere else.
 
+### Credits
+@zhen-zen for YogaSMC and BrightnessKeys
+@benbender for SSDT-BATX and Touchscreen Gestures
 
 ### Work in Progress...
