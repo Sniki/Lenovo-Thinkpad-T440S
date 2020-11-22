@@ -1,5 +1,8 @@
 # Lenovo-Thinkpad-T440S
 
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.0.1-green)](https://www.apple.com/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-green)](https://github.com/acidanthera/OpenCorePkg)
+
 Lenovo Thinkpad T440S using OpenCore Bootloader
 
 ### What works:
@@ -79,6 +82,6 @@ There is not enough room to fit the full height so you will be required to place
 
 ### Credits
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
-- [benbender](https://github.com/benbender) for **SSDT-BATX** and Touchscreen Gestures
+- [benbender](https://github.com/benbender) for **SSDT-BATX**, Touchscreen Gestures and ACPI refinements
 
 ### Work in Progress...
