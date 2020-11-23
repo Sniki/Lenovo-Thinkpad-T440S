@@ -42,6 +42,14 @@ In order to fix this problem we need to patch `Display-EDID`.
 
 Procedures to be added soon...
 
+### Non TouchScreen Displays
+If your Lenovo Thinkpad T440S doesn't have a TouchScreen display, it is required for you to disable the kext responsible for TouchScreen.
+Go to `EFI/OC/Config.plist > Kernel > Add >` and disable the 4 following kexts:
+- `VoodooI2CServices.kext - Enabled = No`
+- `VoodooGPIO.kext - Enabled = No`
+- `VoodooI2C.kext - Enabled = No`
+- `VoodooI2CHID.kext - Enabled = No`
+
 ### Wireless and Bluetooth
 
 #### Intel AC7260
@@ -72,16 +80,16 @@ This card uses the same kexts as DW1560, DW1830 but needs to disable ASPM to avo
 Into `EFI/OC/Config.plist > DeviceProperties >` and add the following entry: `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
 and into the `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` entry add the device property `pci-aspm-default` (number) `0`
 
-#### BRCM4360NG
+#### BCM4360NG
 This card is the best one you can find for the moment, it is the same as the Apple BCM94360CS2 which works natively but it does have a standard NGFF form factor.
 
-#### BRCM94360CS2
+#### BCM94360CS2
 This is the native Apple Wireless and Bluetooth card that can be found on MacBookPro(s).
 In order to fit this one you will have to buy the NGFF adapter and the extending cable module.
 There is not enough room to fit the full height so you will be required to place it somewhere else.
 
 ### Credits
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
-- [benbender](https://github.com/benbender) for **SSDT-BATX**, Touchscreen Gestures and ACPI refinements
+- [benbender](https://github.com/benbender) for **SSDT-BATX**, **Touchscreen Gestures** and **ACPI refinements**
 
 ### Work in Progress...
