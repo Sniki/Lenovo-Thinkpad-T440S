@@ -59,7 +59,9 @@ Go to `EFI/OC/Config.plist > Kernel > Add` and disable the VoodooRMI kexts:
 - `VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext - Enabled = No`
 - `VoodooRMI.kext/Contents/PlugIns/VoodooTrackpoint.kext - Enabled = No`
 - `VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext - Enabled = No`
+
 Once done, enable the VoodooPS2Controller kexts for Touchpad:
+
 - `VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext - Enabled = Yes`
 - `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext - Enabled = Yes`
 - `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext - Enabled = Yes`
