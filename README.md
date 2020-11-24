@@ -5,7 +5,6 @@
 
 Lenovo Thinkpad T440S using OpenCore Bootloader
 
-<img src="https://github.com/Sniki/Lenovo-Thinkpad-T440S/blob/main/Docs/Images/Logo.jpg" align="center">
 
 ### What works:
 - Intel HD Graphics 4400 QE/CI
