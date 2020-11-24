@@ -86,6 +86,14 @@
 				<key>Path</key>
 				<string>SSDT-IGBE.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>VoodooPS2 SSDT for ThinkPad TouchPad</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-TPD.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>

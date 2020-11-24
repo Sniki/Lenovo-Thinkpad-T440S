@@ -66,6 +66,9 @@ Once done, enable the VoodooPS2Controller kexts for Touchpad:
 - `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext - Enabled = Yes`
 - `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext - Enabled = Yes`
 
+Now enable the `SSDT-TPD.aml` for Touchpad to work with VoodooPS2:  `EFI/OC/Config.plist > ACPI > Add > SSDT-TPD.aml > Enabled = Yes`
+
+
 ### Wireless and Bluetooth
 
 #### Intel AC7260
