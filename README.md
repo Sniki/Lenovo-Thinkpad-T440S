@@ -3,7 +3,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.0.1-green)](https://www.apple.com/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-green)](https://github.com/acidanthera/OpenCorePkg)
 
-<img align="center" src="https://github.com/Sniki/Lenovo-Thinkpad-T440S/blob/main/Docs/Images/Logo.jpg">
+<img src="https://github.com/Sniki/Lenovo-Thinkpad-T440S/blob/main/Docs/Images/Logo.jpg" align="center">
 
 Lenovo Thinkpad T440S using OpenCore Bootloader
 
