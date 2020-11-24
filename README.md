@@ -1,4 +1,4 @@
-# Lenovo-Thinkpad-T440S
+# Lenovo Thinkpad T440S
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.0.1-green)](https://www.apple.com/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-green)](https://github.com/acidanthera/OpenCorePkg)
@@ -33,7 +33,7 @@ Lenovo Thinkpad T440S using OpenCore Bootloader
 - DRM content
 - SD Card Reader (no reliable kext)
 - FingerPrint Reader
-- Docking Station causes kernel panic if you have a display connected in any of the Docking Station Ports `VGA DVI DisplayPort` and you attempt to `Sleep, Reboot or Shutdown`
+- Docking Station kernel panic if a display is connected in any of the Dock Ports `VGA DVI DisplayPort` and you attempt to `Sleep, Reboot or Shutdown`
 
 ### Secure Boot
 Users with `1366x768` or `1600x900` displays can go ahead and enable secure boot and enjoy it.
@@ -66,7 +66,8 @@ Once done, enable the VoodooPS2Controller kexts for Touchpad:
 - `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext - Enabled = Yes`
 - `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext - Enabled = Yes`
 
-Now enable the `SSDT-TPD.aml` for Touchpad to work with VoodooPS2:  `EFI/OC/Config.plist > ACPI > Add > SSDT-TPD.aml > Enabled = Yes`
+Now enable the `SSDT-TPD.aml` for Touchpad to work with VoodooPS2:  
+- `EFI/OC/Config.plist > ACPI > Add > SSDT-TPD.aml > Enabled = Yes`
 
 
 ### Wireless and Bluetooth
