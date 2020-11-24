@@ -50,6 +50,20 @@ Go to `EFI/OC/Config.plist > Kernel > Add >` and disable the 4 following kexts:
 - `VoodooI2C.kext - Enabled = No`
 - `VoodooI2CHID.kext - Enabled = No`
 
+### TouchPad
+Most of the users have probably already upgraded to a T450S Touchpad (the one with Physical Buttons) and this one does work natively, no need to touch anything.
+For you users that have the standard Touchpad that came with this laptop, you have to do some changes as VoodooRMI doesn't seem to work very well with them.
+
+Go to `EFI/OC/Config.plist > Kernel > Add` and disable the VoodooRMI kexts:
+- `VoodooRMI.kext - Enabled = No`
+- `VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext - Enabled = No`
+- `VoodooRMI.kext/Contents/PlugIns/VoodooTrackpoint.kext - Enabled = No`
+- `VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext - Enabled = No`
+Once done, enable the VoodooPS2Controller kexts for Touchpad:
+- `VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext - Enabled = Yes`
+- `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext - Enabled = Yes`
+- `VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext - Enabled = Yes`
+
 ### Wireless and Bluetooth
 
 #### Intel AC7260
@@ -59,21 +73,16 @@ Keep in mind that Airportitlwm/itlwm is still in early development and only `N` 
 #### DW1560 & DW1830
 Users with one of these two cards first need to disable the intel kexts:
 
-`EFI/OC/Config.plist > Kernel > Add > Airportitlwm > Enabled = No`
-
-`EFI/OC/Config.plist > Kernel > Add > IntelBluetoothInjector > Enabled = No`
-
-`EFI/OC/Config.plist > Kernel > Add > IntelBluetoothFirmware > Enabled = No`
+- `EFI/OC/Config.plist > Kernel > Add > Airportitlwm > Enabled = No`
+- `EFI/OC/Config.plist > Kernel > Add > IntelBluetoothInjector > Enabled = No`
+- `EFI/OC/Config.plist > Kernel > Add > IntelBluetoothFirmware > Enabled = No`
 
 Then enable the corresponding kexts for those two cards:
 
-`EFI/OC/Config.plist > Kernel > Add > AirportBrcmFixup > Enabled = Yes`
-
-`EFI/OC/Config.plist > Kernel > Add > BrcmBluetoothInjector > Enabled = Yes`
-
-`EFI/OC/Config.plist > Kernel > Add > BrcmFirmwareData > Enabled = Yes`
-
-`EFI/OC/Config.plist > Kernel > Add > BrcmPatchRAM3 > Enabled = Yes`
+- `EFI/OC/Config.plist > Kernel > Add > AirportBrcmFixup > Enabled = Yes`
+- `EFI/OC/Config.plist > Kernel > Add > BrcmBluetoothInjector > Enabled = Yes`
+- `EFI/OC/Config.plist > Kernel > Add > BrcmFirmwareData > Enabled = Yes`
+- `EFI/OC/Config.plist > Kernel > Add > BrcmPatchRAM3 > Enabled = Yes`
 
 #### DW1820A
 This card uses the same kexts as DW1560, DW1830 but needs to disable ASPM to avoid freezes.
