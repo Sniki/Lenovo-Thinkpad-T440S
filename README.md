@@ -87,14 +87,17 @@ Users with one of these two cards first need to disable the intel kexts:
 Then enable the corresponding kexts for those two cards:
 
 - `EFI/OC/Config.plist > Kernel > Add > AirportBrcmFixup > Enabled = Yes`
+- `EFI/OC/Config.plist > Kernel > Add > AirPortBrcm4360_Injector > Enabled = Yes`
 - `EFI/OC/Config.plist > Kernel > Add > BrcmBluetoothInjector > Enabled = Yes`
 - `EFI/OC/Config.plist > Kernel > Add > BrcmFirmwareData > Enabled = Yes`
 - `EFI/OC/Config.plist > Kernel > Add > BrcmPatchRAM3 > Enabled = Yes`
 
 #### DW1820A
-This card uses the same kexts as DW1560, DW1830 but needs to disable ASPM to avoid freezes.
-Into `EFI/OC/Config.plist > DeviceProperties >` and add the following entry: `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
-and into the `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` entry add the device property `pci-aspm-default` (number) `0`
+This card uses the same kexts as DW1560, DW1830 but needs this additional injector:
+- `EFI/OC/Config.plist > Kernel > Add > AirPortBrcmNIC_Injector > Enabled = Yes`
+
+We also need to disable `pci-aspm-default` by uncommenting/renaming:
+`EFI/OC/Config.plist > DeviceProperties > #PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0) to PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
 
 #### BCM4360NG
 This card is the best one you can find for the moment, it is the same as the Apple BCM94360CS2 which works natively but it does have a standard NGFF form factor.

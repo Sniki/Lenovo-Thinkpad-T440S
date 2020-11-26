@@ -927,7 +927,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
 				<key>Comment</key>
-				<string>AirportBrcmFixup</string>
+				<string>AirPortBrcm4360_Injector</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -945,7 +945,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
 				<key>Comment</key>
-				<string>AirportBrcmFixup</string>
+				<string>AirPortBrcmNIC_Injector</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
