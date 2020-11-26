@@ -96,8 +96,9 @@ Then enable the corresponding kexts for those two cards:
 This card uses the same kexts as DW1560, DW1830 but needs this additional injector:
 - `EFI/OC/Config.plist > Kernel > Add > AirPortBrcmNIC_Injector > Enabled = Yes`
 
-We also need to disable `pci-aspm-default` to fix system freezes caused from this card by uncommenting/renaming:
-- `EFI/OC/Config.plist > DeviceProperties > #PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0) to PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
+We also need to disable `pci-aspm-default` to fix system freezes caused from this card:
+Go into `EFI/OC/Config.plist > DeviceProperties >` and rename / uncomment:
+-  `#PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` to `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
 
 #### BCM4360NG
 This card is the best one you can find for the moment, it is the same as the Apple BCM94360CS2 which works natively but it does have a standard NGFF form factor.
