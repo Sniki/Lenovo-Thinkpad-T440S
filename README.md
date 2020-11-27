@@ -45,9 +45,8 @@ These are the recommended settings to have everything working properly:
 - `Anti-Theft > Computrace > Computrace Module Activation > Current Setting [Disabled]`
 
 **Note**: These laptops do have whitelist which doesn't allow you to use other Card than the Intel AC7260.
-In order to use a different / supported card, you need to mod your bios (remove whitelist) or downgrade to bios version 2.36
-
-Bios v2.36 doesn't have whitelist so downgrading allows you to use any wireless card that you want.
+In order to use a different / supported card, you need to mod your bios (remove whitelist) or downgrade to Bios v2.36
+- Bios v2.36 doesn't have whitelist so downgrading allows you to use any wireless card that you want.
 
 
 ### Secure Boot
