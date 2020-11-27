@@ -70,6 +70,11 @@ Once done, enable the VoodooPS2Controller kexts for Touchpad:
 Now enable the `SSDT-TPD.aml` for Touchpad to work with VoodooPS2:  
 - `EFI/OC/Config.plist > ACPI > Add > SSDT-TPD.aml > Enabled = Yes`
 
+### YogaSMC
+To have working Keyboard Function Keys (Fn) and Fan reading etc, you need to install the YogaSMCPane and the YogaSMC App.
+YogaSMC.kext is already included in the EFI so when yo go to releases tab, you download the YogaSMC-App-release.dmg
+https://github.com/zhen-zen/YogaSMC
+
 
 ### Wireless and Bluetooth
 
