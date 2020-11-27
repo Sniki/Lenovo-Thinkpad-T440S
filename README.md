@@ -36,6 +36,18 @@ Lenovo Thinkpad T440S using OpenCore Bootloader
 - FingerPrint Reader
 - Docking Station kernel panic if a display is connected in any of the Dock Ports `VGA DVI DisplayPort` and you attempt to `Sleep, Reboot or Shutdown`
 
+### Bios
+These are the recommended settings to have everything working properly:
+
+**Security Tab**:
+- `Security Chip > Security Chip [Disabled]`
+- `Anti-Theft > Intel (R) AT Module Activation > Current Setting [Disabled]`
+- `Anti-Theft > Computrace > Computrace Module Activation > Current Setting [Disabled]`
+**Note**: These laptops do have whitelist which doesn't allow you to use other Wireless Card than the Intel AC7260.
+In order to use a different / supported card, you need to mod your bios (remove whitelist) or downgrade to bios version 2.36
+Bios v2.36 doesn't have whitelist so downgrading allows you to use any wireless card that you want.
+
+
 ### Secure Boot
 Users with `1366x768` or `1600x900` displays can go ahead and enable secure boot and enjoy it.
 Users with upgraded displays to `1080p` or native `1080p` displays will have garbled screen if CSM is disabled in BIOS (which can't be left enabled if Secure Boot enabled)
