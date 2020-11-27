@@ -72,8 +72,8 @@ Now enable the `SSDT-TPD.aml` for Touchpad to work with VoodooPS2:
 
 ### YogaSMC
 To have working Keyboard Function Keys (Fn) and Fan reading etc, you need to install the YogaSMCPane and the YogaSMC App.
-YogaSMC.kext is already included in the EFI so when yo go to releases tab, you download the YogaSMC-App-release.dmg
-https://github.com/zhen-zen/YogaSMC
+YogaSMC.kext is already included in the EFI so when yo go to releases tab, you download the **YogaSMC-App-release.dmg**
+- https://github.com/zhen-zen/YogaSMC
 
 
 ### Wireless and Bluetooth
@@ -103,7 +103,8 @@ This card uses the same kexts as DW1560, DW1830 but needs this additional inject
 
 We also need to disable `pci-aspm-default` to fix system freezes caused from this card:
 Go into `EFI/OC/Config.plist > DeviceProperties >` and rename / uncomment:
--  `#PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` to `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
+- `#PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` to `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` and the device property:
+- `#pci-aspm-default` to `pci-aspm-default`
 
 #### BCM4360NG
 This card is the best one you can find for the moment, it is the same as the Apple BCM94360CS2 which works natively but it does have a standard NGFF form factor.
@@ -112,6 +113,12 @@ This card is the best one you can find for the moment, it is the same as the App
 This is the native Apple Wireless and Bluetooth card that can be found on MacBookPro(s).
 In order to fit this one you will have to buy the NGFF adapter and the extending cable module.
 There is not enough room to fit the full height so you will be required to place it somewhere else.
+
+#### Country Code for Wireless Cards
+Some countries have different 5GHz bands and may not be supported for some, the default one is set as US.
+You can specify other country codes like: **US**, **CN**, **#a**, etc by going into:
+- `EFI/OC/Config.plist > DeviceProperties > Add > PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` and rename/uncomment:
+- `#country-code` to `country-code` and set the desired value (**#a** is the preset value, replace with the country code that you need)
 
 ### Credits
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
