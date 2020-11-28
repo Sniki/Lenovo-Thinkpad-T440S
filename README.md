@@ -94,12 +94,12 @@ ALCPlugFIx is required to fix static noise on headphones, however Black-Dragon74
 
 **Installation**:
 - Extract ALCPlugFix zip into desktop
-- Open terminal and type following commands:
-`sudo spctl --master-disable`
-`sudo mkdir /usr/local/bin/`
-`cd desktop/ALCPlugFix`
-`sudo cp -R ALC3232.plist /usr/local/bin/`
-`./install.sh`
+- Open terminal and type following commands one by one on the listed order:
+- `sudo spctl --master-disable`
+- `sudo mkdir /usr/local/bin/`
+- `cd desktop/ALCPlugFix`
+- `sudo cp -R ALC3232.plist /usr/local/bin/`
+- `./install.sh`
 - Now the installer will ask you to drop the `ALC3232.plist` into the terminal window.
 - Open a new finder window and press `Shift + Cmd(Alt) + G` to open a new `go to folder:` window
 - Now type: `/usr/local/bin/`
