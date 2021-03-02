@@ -54,7 +54,18 @@ Users with `1366x768` or `1600x900` displays can go ahead and enable secure boot
 Users with upgraded displays to `1080p` or native `1080p` displays will have garbled screen if CSM is disabled in BIOS (which can't be left enabled if Secure Boot enabled)
 In order to fix this problem we need to patch `Display-EDID`.
 
-Procedures to be added soon...
+### Patching Display EDID [WIP]
+
+First we need to download these three Applications: Hackintool, AWEDIDEditor and HexFiend
+
+- Open Hackintool and go to the `Displays` tab and click the Export icon/button on the bottom-right side.
+- On desktop, you will see some new files appeared, now open the `EDID-***-****-orig.bin` file with AWEDIDEditor
+- Go to `Detailed Data` tab and change `H. Sync Width:` value to `100`.
+- Save the EDID as `Patched-EDID` or whatever name you like just to know which one is the patched one
+- Open the `Patched-EDID` with HexFiend and make sure you expand it so it contains 8 columns of code bytes.
+- Copy the 128 bytes code and paste it into: `EFI>OC>Config.plist>DeviceProperties>PciRoot(0x0)/Pci(0x2,0x0)>AAPL00,override-no-connect`
+- Save the config.plist file and reboot, Enjoy Secure Boot without garbled screen.
+
 
 ### Non TouchScreen Displays
 If your Lenovo Thinkpad T440S doesn't have a TouchScreen display, it is required for you to disable the kext responsible for TouchScreen.
