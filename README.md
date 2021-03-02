@@ -1,7 +1,7 @@
 # Lenovo Thinkpad T440S
 
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.0.1-green)](https://www.apple.com/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-green)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.2.1-green)](https://www.apple.com/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.7-green)](https://github.com/acidanthera/OpenCorePkg)
 
 Lenovo Thinkpad T440S using OpenCore Bootloader
 
@@ -23,18 +23,18 @@ Lenovo Thinkpad T440S using OpenCore Bootloader
 - DisplayPort
 - VGA
 - Wireless and Bluetooth
+- SD Card Reader
 - Docking Station USB Ports
 - Docking Station LAN
 - Docking Station DisplayPort
 - Docking Station VGA Port
 - Docking Station DVI Port
-- Everything else that i missed
 
 ### What doesn't work:
 - DRM content
-- SD Card Reader (no reliable kext)
 - FingerPrint Reader
 - Docking Station kernel panic if a display is connected in any of the Dock Ports `VGA DVI DisplayPort` and you attempt to `Sleep, Reboot or Shutdown`
+- Docking Station DisplayPort Audio
 
 ### Bios
 These are the recommended settings to have everything working properly:
@@ -154,5 +154,3 @@ You can specify other country codes like: **US**, **CN**, **#a**, etc by going i
 ### Credits
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
 - [benbender](https://github.com/benbender) for **SSDT-BATX**, **Touchscreen Gestures** and **ACPI refinements**
-
-### Work in Progress...
