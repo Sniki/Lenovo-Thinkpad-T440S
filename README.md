@@ -56,7 +56,7 @@ In order to fix this problem we need to patch `Display-EDID`.
 
 ### Patching Display EDID [WIP]
 
-First we need to download these three Applications: Hackintool, AWEDIDEditor and HexFiend
+First we need to download these three Applications: [Hackintool](https://github.com/headkaze/Hackintool/releases), [AWEDIDEditor](https://www.analogway.com/files/uploads/produit/download/en/aw_edideditor_setup_2_00_13_macos.zip) and [HexFiend](https://github.com/HexFiend/HexFiend/releases)
 
 - Open Hackintool and go to the `Displays` tab and click the Export icon/button on the bottom-right side.
 - On desktop, you will see some new files appeared, now open the `EDID-***-****-orig.bin` file with AWEDIDEditor
