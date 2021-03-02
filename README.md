@@ -1,6 +1,6 @@
 # Lenovo Thinkpad T440S
 
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.2.1-green)](https://www.apple.com/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.2.2-green)](https://www.apple.com/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.7-green)](https://github.com/acidanthera/OpenCorePkg)
 
 Lenovo Thinkpad T440S using OpenCore Bootloader
