@@ -443,16 +443,16 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				BgAmCg==
-				</data>
-				<key>AAPL00,override-no-connect</key>
+				<key>#AAPL00,override-no-connect</key>
 				<data>
 				AP///////wAGrz0SAAAAAAAWAQSVHxF4AoflpFZQniYN
 				UFQAAAABAQEBAQEBAQEBAQEBAQEBFDeAuHA4JEAQZD4A
 				Na0QAAAYAAAADwAAAAAAAAAAAAAAAAAgAAAA/gBBVU8K
 				ICAgICAgICAgAAAA/gBCMTQwSEFOMDEuMiAKAE8=
+				</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				BgAmCg==
 				</data>
 				<key>device-id</key>
 				<data>
