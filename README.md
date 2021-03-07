@@ -33,7 +33,7 @@ Lenovo Thinkpad T440S using OpenCore Bootloader
 ### What doesn't work:
 - DRM content
 - FingerPrint Reader
-- Docking Station kernel panic if a display is connected in any of the Dock Ports `VGA DVI DisplayPort` and you attempt to `Sleep, Reboot or Shutdown`
+- Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
 
 ### Bios
