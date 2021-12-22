@@ -1,4 +1,4 @@
-# Lenovo Thinkpad T440S + MacBookPro 11,1 SMBIOS
+# Lenovo ThinkPad T440S + MacBookPro 11,1 SMBIOS
 
 ![repository-open-graph-template 2](https://user-images.githubusercontent.com/72415505/147093786-daaeb935-9c4b-44d6-923b-02e359bef04c.png)
 
@@ -8,7 +8,7 @@
 
  In order to download this new Modded EFI, go to the releases section of this post.
 
-Lenovo Thinkpad T440S + MacBookPro11,1 SMBIOS using OpenCore Bootloader
+Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS using OpenCore Bootloader
 
 
 ### What works:
@@ -73,7 +73,7 @@ First we need to download these three Applications: [Hackintool](https://github.
 
 
 ### Non TouchScreen Displays
-If your Lenovo Thinkpad T440S doesn't have a TouchScreen display, it is required for you to disable the kext responsible for TouchScreen.
+If your Lenovo ThinkPad T440S doesn't have a TouchScreen display, it is required for you to disable the kext responsible for TouchScreen.
 Go to `EFI/OC/Config.plist > Kernel > Add >` and disable the 4 following kexts:
 - `VoodooI2CServices.kext - Enabled = No`
 - `VoodooGPIO.kext - Enabled = No`
