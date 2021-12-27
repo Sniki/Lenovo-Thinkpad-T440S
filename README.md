@@ -6,7 +6,11 @@
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.2-red)](https://www.apple.com/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.5-blue)](https://github.com/acidanthera/OpenCorePkg)
 
- In order to download this new Modded EFI, go to the releases section of this post.
+All credit goes to the original creator, Sniki.
+
+https://github.com/Sniki/Lenovo-Thinkpad-T440S 
+
+In order to download this new Modded EFI, go to the releases section of this post.
 
 Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS using OpenCore Bootloader
 
