@@ -4,7 +4,7 @@
 
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.4-red)](https://www.apple.com/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.5-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.8-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 All credit goes to the original creator, Sniki.
 
