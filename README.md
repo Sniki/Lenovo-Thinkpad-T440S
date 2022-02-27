@@ -174,4 +174,4 @@ You can specify other country codes like: **US**, **CN**, **#a**, etc by going i
 ### Credits
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
 - [benbender](https://github.com/benbender) for **SSDT-BATX**, **Touchscreen Gestures** and **ACPI refinements**
-- [sniki] (https://github.com/Sniki) for creating the original OC EFI files to make this hackintosh project possible.
+- [Sniki](https://github.com/Sniki) for creating the original OC EFI files to make this hackintosh project possible.
