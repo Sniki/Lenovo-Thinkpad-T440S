@@ -1,4 +1,4 @@
-# Lenovo ThinkPad T440S + MacBookPro 11,1 SMBIOS
+# Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS
 
 ![repository-open-graph-template 2](https://user-images.githubusercontent.com/72415505/147093786-daaeb935-9c4b-44d6-923b-02e359bef04c.png)
 
