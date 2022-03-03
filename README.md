@@ -45,6 +45,108 @@ Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS using OpenCore Bootloader
 - Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
 
+# Lenovo ThinkPad T440S Hackintosh Guide:
+
+To start you'll need the following:
+
+4GB USB Stick
+
+For USB larger than 16 GB to format in FAT32 use Rufus method
+
+macrecovery.py (opens new window)
+
+This will require Python installed (opens new window)
+#
+
+1. To grab legacy installers is super easy, first grab a copy of OpenCorePkg (opens new window) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
+
+<img width="974" alt="file-path 0aea4278" src="https://user-images.githubusercontent.com/72415505/156628158-190cba5d-6114-4972-aa83-f1b14749e34d.png">
+
+
+2. From here, you'll want to open up a Command Prompt and cd into the macrecovery folder that we copied earlier:
+
+cd Paste_Folder_Path
+
+<img width="917" alt="command-prompt 53392eba" src="https://user-images.githubusercontent.com/72415505/156628358-c2692037-80ac-40f9-bb3b-9a424442dafe.png">
+
+3. Now run one of the following depending on what version of macOS you want(Note these scripts rely on Python (opens new window) support, please install if you haven't already):
+
+ Lion (10.7):
+python macrecovery.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download
+python macrecovery.py -b Mac-C3EC7CD22292981F -m 00000000000F0HM00 download
+
+ Mountain Lion (10.8):
+python macrecovery.py -b Mac-7DF2A3B5E5D671ED -m 00000000000F65100 download
+
+ Mavericks (10.9):
+python macrecovery.py -b Mac-F60DEB81FF30ACF6 -m 00000000000FNN100 download
+
+ Yosemite (10.10):
+python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000GDVW00 download
+
+ El Capitan (10.11):
+python macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000GQRX00 download
+
+ Sierra (10.12):
+python macrecovery.py -b Mac-77F17D7DA9285301 -m 00000000000J0DX00 download
+
+ High Sierra (10.13)
+python macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
+
+ High Sierra (10.13) (Alternate Command)
+python macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
+
+ Mojave (10.14)
+python macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
+
+ Catalina (10.15)
+python macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
+
+ Big Sur (11)
+python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
+
+This will take some time, however once you're finished you should get either BaseSystem or RecoveryImage files:
+
+![macrecovery-after 4c24ba88](https://user-images.githubusercontent.com/72415505/156629881-3d0e18a5-79cf-465e-a054-44b39a77b47f.jpg) <img width="973" alt="basesystem-example 93778929" src="https://user-images.githubusercontent.com/72415505/156629925-77869c1f-19ee-463f-bcc7-cafb2be09866.png">
+
+4. Download [Rufus](https://rufus.ie/en/), set the BOOT selection as not bootable, set File System as Large FAT32, click Start, and delete all file autorun in USB Drive partition.
+
+![format-usb-rufus 43feba9e](https://user-images.githubusercontent.com/72415505/156631083-73e33087-d51e-42e4-a804-e93afad7c2ca.png)
+
+5. Next, go to the root of this USB drive and create a folder called com.apple.recovery.boot. Then move the downloaded BaseSystem or RecoveryImage files. Please ensure you copy over both the .dmg and .chunklist files to this folder:
+
+<img width="824" alt="com-recovery 805dc41f" src="https://user-images.githubusercontent.com/72415505/156631343-529ca3ee-9e79-4e21-bab1-7305b4ed3df9.png">
+
+6. Create a new folder on the root of your USB Drive called EFI.
+
+7. Open up and extract the EFI folder archive you downloaded earlier.
+
+8. Grab the BOOT and OC folders and copy them into the EFI folder you've just created.
+
+9. Restart your computer.
+
+10. Open BIOS and disable all the security options.
+
+11. Boot via your Flash Drive.
+
+12. Boot Hackintosh installer.
+
+13. Now open Disk Utility and format your internal or external Hard Drive or SSD as APFS.
+
+14. Install macOS.
+
+15. Your system might boot during the install.
+
+16. Now after install again boot into your usb drive but now boot into the drive in which you installed your Hackintosh.
+
+17. Open Clover Configurator and Mount the EFI partition of the drive you want to boot off of.
+
+18. Now copy my EFI Folder and overrite it with the one system created.
+
+19. Now try booting macOS without the USB drive.
+
+20. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440S.
+
 ### Bios
 These are the recommended settings to have everything working properly:
 
