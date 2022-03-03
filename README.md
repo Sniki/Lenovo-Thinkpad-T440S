@@ -14,7 +14,6 @@ https://github.com/Sniki/Lenovo-Thinkpad-T440S
 
 ## Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS using OpenCore Bootloader
 
-
 ### What works:
 - Intel HD Graphics 4400 QE/CI
 - Brightness Control
@@ -39,12 +38,13 @@ https://github.com/Sniki/Lenovo-Thinkpad-T440S
 - Docking Station VGA Port
 - Docking Station DVI Port
 
+#
 ### What doesn't work:
 - DRM contenthttps://github.com/acidanthera/OpenCorePkg/releases 
 - FingerPrint Reader
 - Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
-
+#
 ## Lenovo ThinkPad T440S Hackintosh Guide
 
 To start you'll need the following:
@@ -65,12 +65,14 @@ This will require [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjr
 <img width="974" alt="file-path 0aea4278" src="https://user-images.githubusercontent.com/72415505/156628158-190cba5d-6114-4972-aa83-f1b14749e34d.png">
 
 
+#
 2. From here, you'll want to open up a Command Prompt and cd into the macrecovery folder that we copied earlier:
 
 cd Paste_Folder_Path
 
 <img width="917" alt="command-prompt 53392eba" src="https://user-images.githubusercontent.com/72415505/156628358-c2692037-80ac-40f9-bb3b-9a424442dafe.png">
 
+#
 3. Now run one of the following depending on what version of macOS you want(Note these scripts rely on Python (opens new window) support, please install if you haven't already):
 
  Lion (10.7):
@@ -111,19 +113,25 @@ This will take some time, however once you're finished you should get either Bas
 
 ![macrecovery-after 4c24ba88](https://user-images.githubusercontent.com/72415505/156629881-3d0e18a5-79cf-465e-a054-44b39a77b47f.jpg) <img width="973" alt="basesystem-example 93778929" src="https://user-images.githubusercontent.com/72415505/156629925-77869c1f-19ee-463f-bcc7-cafb2be09866.png">
 
+#
 4. Download [Rufus](https://rufus.ie/en/), set the BOOT selection as not bootable, set File System as Large FAT32, click Start, and delete all file autorun in USB Drive partition.
 
 ![format-usb-rufus 43feba9e](https://user-images.githubusercontent.com/72415505/156631083-73e33087-d51e-42e4-a804-e93afad7c2ca.png)
 
+#
 5. Next, go to the root of this USB drive and create a folder called com.apple.recovery.boot. Then move the downloaded BaseSystem or RecoveryImage files. Please ensure you copy over both the .dmg and .chunklist files to this folder:
 
 <img width="824" alt="com-recovery 805dc41f" src="https://user-images.githubusercontent.com/72415505/156631343-529ca3ee-9e79-4e21-bab1-7305b4ed3df9.png">
 
+#
 6. Create a new folder on the root of your USB Drive called EFI.
+
 
 7. Open up and extract the EFI folder archive you downloaded earlier.
 
+
 8. Grab the BOOT and OC folders and copy them into the EFI folder you've just created.
+
 
 9. Restart your computer.
 
@@ -149,6 +157,7 @@ This will take some time, however once you're finished you should get either Bas
 
 20. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440S.
 
+#
 ### Bios
 These are the recommended settings to have everything working properly:
 
