@@ -124,38 +124,35 @@ This will take some time, however once you're finished you should get either Bas
 <img width="824" alt="com-recovery 805dc41f" src="https://user-images.githubusercontent.com/72415505/156631343-529ca3ee-9e79-4e21-bab1-7305b4ed3df9.png">
 
 #
-6. Create a new folder on the root of your USB Drive called EFI.
+
+6. Open up and extract the EFI folder archive you downloaded earlier.
 
 
-7. Open up and extract the EFI folder archive you downloaded earlier.
+7. Copy the folder named, "EFI," to the root of your USB Drive.
 
+8. Restart your computer.
 
-8. Grab the BOOT and OC folders and copy them into the EFI folder you've just created.
+9. Open BIOS and disable all the security options.
 
+10. Boot via your Flash Drive.
 
-9. Restart your computer.
+11. Boot the Hackintosh installer.
 
-10. Open BIOS and disable all the security options.
+12. Now open Disk Utility and format your internal or external Hard Drive or SSD as APFS.
 
-11. Boot via your Flash Drive.
+13. Install macOS.
 
-12. Boot the Hackintosh installer.
+14. Your system might reboot during the install.
 
-13. Now open Disk Utility and format your internal or external Hard Drive or SSD as APFS.
+15. Now after install again boot into your usb drive but now boot into the drive in which you installed your Hackintosh.
 
-14. Install macOS.
+16. Open Clover Configurator and Mount the EFI partition of the drive you want to boot off of.
 
-15. Your system might reboot during the install.
+17. Now copy my EFI Folder and overrite it with the one system created.
 
-16. Now after install again boot into your usb drive but now boot into the drive in which you installed your Hackintosh.
+18. Now try booting macOS without the USB drive.
 
-17. Open Clover Configurator and Mount the EFI partition of the drive you want to boot off of.
-
-18. Now copy my EFI Folder and overrite it with the one system created.
-
-19. Now try booting macOS without the USB drive.
-
-20. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440S.
+19. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440S.
 
 #
 ### Bios
