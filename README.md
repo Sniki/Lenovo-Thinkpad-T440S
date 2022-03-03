@@ -40,12 +40,12 @@ Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS using OpenCore Bootloader
 - Docking Station DVI Port
 
 ### What doesn't work:
-- DRM content
+- DRM contenthttps://github.com/acidanthera/OpenCorePkg/releases 
 - FingerPrint Reader
 - Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
 
-# Lenovo ThinkPad T440S Hackintosh Guide:
+# Lenovo ThinkPad T440S Hackintosh Guide
 
 To start you'll need the following:
 
@@ -53,12 +53,14 @@ To start you'll need the following:
 
 For USB larger than 16 GB to format in FAT32 use Rufus method
 
-macrecovery.py (opens new window)
+A copy of the [EFI](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/) folder
 
-This will require Python installed (opens new window)
+[macrecovery.py](https://github.com/acidanthera/OpenCorePkg/releases)
+
+This will require [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) installed.
 #
 
-1. To grab legacy installers is super easy, first grab a copy of OpenCorePkg (opens new window) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
+1. To grab legacy installers is super easy, first grab a copy of [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
 
 <img width="974" alt="file-path 0aea4278" src="https://user-images.githubusercontent.com/72415505/156628158-190cba5d-6114-4972-aa83-f1b14749e34d.png">
 
