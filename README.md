@@ -45,7 +45,7 @@ https://github.com/Sniki/Lenovo-Thinkpad-T440S
 - Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
 
-# Lenovo ThinkPad T440S Hackintosh Guide
+## Lenovo ThinkPad T440S Hackintosh Guide
 
 To start you'll need the following:
 
