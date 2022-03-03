@@ -73,7 +73,7 @@ cd Paste_Folder_Path
 <img width="917" alt="command-prompt 53392eba" src="https://user-images.githubusercontent.com/72415505/156628358-c2692037-80ac-40f9-bb3b-9a424442dafe.png">
 
 #
-3. Now run one of the following depending on what version of macOS you want(Note these scripts rely on Python (opens new window) support, please install if you haven't already):
+3. Now run one of the following depending on what version of macOS you want(Note these scripts rely on [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) support, please install if you haven't already):
 
  Lion (10.7):
 python macrecovery.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download
@@ -139,13 +139,13 @@ This will take some time, however once you're finished you should get either Bas
 
 11. Boot via your Flash Drive.
 
-12. Boot Hackintosh installer.
+12. Boot the Hackintosh installer.
 
 13. Now open Disk Utility and format your internal or external Hard Drive or SSD as APFS.
 
 14. Install macOS.
 
-15. Your system might boot during the install.
+15. Your system might reboot during the install.
 
 16. Now after install again boot into your usb drive but now boot into the drive in which you installed your Hackintosh.
 
