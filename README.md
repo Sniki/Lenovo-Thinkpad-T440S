@@ -156,7 +156,7 @@ This will take some time, however once you're finished you should get either Bas
 
 14. Your system might reboot during the install.
 
-15. Now after install again boot into your usb drive but now boot into the drive in which you installed your Hackintosh.
+15. Now after install again boot into your usb drive but now boot into the drive in which you installed macOS to.
 
 16. Open Clover Configurator and Mount the EFI partition of the drive you want to boot off of.
 
