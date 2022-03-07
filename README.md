@@ -1,4 +1,4 @@
-# Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS
+# Lenovo ThinkPad T440s
 
 ![repository-open-graph-template 2](https://user-images.githubusercontent.com/72415505/147093786-daaeb935-9c4b-44d6-923b-02e359bef04c.png)
 
@@ -12,7 +12,7 @@ All credit goes to the original creator, Sniki.
 https://github.com/Sniki/Lenovo-Thinkpad-T440S 
 
 
-## Lenovo ThinkPad T440S + MacBookPro11,1 SMBIOS using OpenCore Bootloader
+## Lenovo ThinkPad T440s + MacBookPro11,1 SMBIOS using OpenCore Bootloader
 
 ### What works:
 - Intel HD Graphics 4400 QE/CI
@@ -45,7 +45,7 @@ https://github.com/Sniki/Lenovo-Thinkpad-T440S
 - Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
 #
-## Lenovo ThinkPad T440S Hackintosh Guide
+## Lenovo ThinkPad T440s Hackintosh Guide
 
 To start you'll need the following:
 
@@ -164,7 +164,7 @@ This will take some time, however once you're finished you should get either Bas
 
 18. Now try booting macOS without the USB drive.
 
-19. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440S.
+19. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
 
 #
 ### Bios
