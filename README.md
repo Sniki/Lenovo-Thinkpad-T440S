@@ -174,6 +174,20 @@ This will take some time, however once you're finished you should get either Bas
 19. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
 
 #
+## Lenovo ThinkPad T440s OpenCore Update Guide
+
+1. Download and install the [OpenCore Updater](https://github.com/mswgen/oc-updater/releases).
+2. When the app opens, press Get Started. A dialog will appear asking you to select the EFI directory.
+3. Mount the EFI Partition on your drive using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/).
+4. Select your EFI directory. It's usually /Volumes/EFI/EFI. It should have BOOT and OC directories inside.
+5. If your OpenCore version is detected, your OpenCore version and list of kexts you are using will be displayed. If your OpenCore version is not detected, you will be asked to select the OpenCore version you are using. Select the version you are using and press Select this version.
+6. If you are not using the latest version of OpenCore, the app will ask you to update. Press Update to update OpenCore.
+7. The app will start to download OpenCore, kexts, and Binary Data. this might take some time and you might see the spinning beach ball. DO NOT CLOSE THE APP.
+8. When the app finishes downloading, it will create a backup of your old EFI and will swap files with the new ones.
+9. Then, it will update config.plist. When it's done, it will display that it's done. It will also display the list of not updated kexts, the backup directory, and that OpenCore Vault is disabled(if it was enabled). You need to reboot your computer to see the changes.
+
+
+#
 ### Bios
 These are the recommended settings to have everything working properly:
 
