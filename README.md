@@ -8,7 +8,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.4-red)](https://www.apple.com/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg)
 
-## All credit goes to the original creator, [Sniki](https://github.com/Sniki).
+## This repository is based on a project created by [Sniki](https://github.com/Sniki).
 
 
 ## Lenovo ThinkPad T440s + MacBookPro11,1 SMBIOS using OpenCore Bootloader
