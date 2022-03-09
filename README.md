@@ -50,21 +50,21 @@ https://github.com/Sniki/Lenovo-Thinkpad-T440S
 
 To start you'll need the following:
 
-A Lenovo ThinkPad T440s (Obviously)
+- A Lenovo ThinkPad T440s (Obviously)
 
-A PC with a copy of Windows 10 or higher installed
+- A PC with a copy of Windows 10 or higher installed
 
-4GB USB Stick
+- 4GB USB Stick
 
-[Rufus](https://rufus.ie/en/)
+- [Rufus](https://rufus.ie/en/)
 
-For USB larger than 16 GB to format in FAT32, use the [Rufus](https://rufus.ie/en/) method.
+ - For USB larger than 16 GB to format in FAT32, use the [Rufus](https://rufus.ie/en/) method.
 
-A copy of the [EFI](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/) folder
+- A copy of the [EFI](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/) folder
 
-[macrecovery.py](https://github.com/acidanthera/OpenCorePkg/releases)
+- [macrecovery.py](https://github.com/acidanthera/OpenCorePkg/releases)
 
-This will require [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) installed.
+- This will require [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) installed.
 #
 
 1. To grab legacy installers is super easy, first grab a copy of [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
