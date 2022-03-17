@@ -1,9 +1,8 @@
 # Lenovo ThinkPad T440s
 
 ![repository-open-graph-template](https://user-images.githubusercontent.com/72415505/157444854-b794eda4-14fb-4306-b854-f7bc40e3c865.png)
-
-
-# [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
+#
+## [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.5-red)](https://www.apple.com/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg)
