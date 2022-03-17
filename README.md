@@ -237,7 +237,7 @@ This will take some time, however once you're finished you should get either Bas
 
 ## Post-Install Tweaks 
 <details>  
-<summary><strong>Recommended Tweaks </strong></summary>
+<summary><strong>Obligatory Tweaks </strong></summary>
 </br>
 
 ### Bios
