@@ -11,7 +11,7 @@
 ## This repository is based on a project created by [Sniki](https://github.com/Sniki).
 
 
-## Lenovo ThinkPad T440s + MacBookPro11,1 SMBIOS using OpenCore Bootloader
+## Lenovo ThinkPad T440s + 2013 MacBook Pro SMBIOS using OpenCore Bootloader
 
 <details>  
 <summary><strong>My ThinkPad T440s Hardware Specs 💻</strong></summary>
