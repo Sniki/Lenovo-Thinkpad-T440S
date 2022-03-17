@@ -13,7 +13,34 @@
 
 ## Lenovo ThinkPad T440s + MacBookPro11,1 SMBIOS using OpenCore Bootloader
 
-### What works:
+<details>  
+<summary><strong>My ThinkPad T440s Hardware Specs 💻</strong></summary>
+</br>
+
+| Model              | Lenovo ThinkPad T440s                                                                               |
+|:-------------------|:----------------------------------------------------------------------------------------------------------|
+| Processor          | Intel Core i5-4300U (2C, 4T,  1.9GHz / 2.5GHz) vPro (The best compatibility with macOS)                                                              
+| Graphics           | Integrated Intel HD Graphics 4400                                                                         |
+| Memory             | 12 GB DDR3 (4GB Soldered + 8GB SODIMM DDR3, dual-channel                                                        |
+| Display            | 14" HD (1600x900) TN, non-touch                                                                       |
+| Storage            | 512 GB SATA SSD + 16 GB mSATA SSD                                                                             |
+| Ethernet           | Intel Ethernet                                                         |
+| WLAN + Bluetooth   | Intel Wifi 7260ngw + Bluetooth 4.0                                        |
+| Camera             | 720p resolution, low light sensitive, fixed focus                                                       |
+| Audio support      | HD Audio, Realtek ALC3245 codec, stereo speakers 1Wx2, dual array microphone, combo audio/microphone jack |
+| Keyboard           | 6-row, spill-resistant, multimedia Fn keys, LED backlight                                                 |
+| Battery            | Internal Li-Polymer 3-cell (68) and External Li-Ion 3-cell (68)                       |
+
+
+</details>
+
+</details>
+
+<details>  
+<summary><strong>Hardware Compatibility 🧰</strong></summary>
+</br>
+ 
+## What works:
 - Intel HD Graphics 4400 QE/CI
 - Brightness Control
 - TouchScreen with Gestures
@@ -43,8 +70,17 @@
 - FingerPrint Reader
 - Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
+
+</details>
+
+</details>
+
 #
 ## Lenovo ThinkPad T440s Hackintosh Guide
+
+<details>  
+<summary><strong>Getting Started</strong></summary>
+</br>
 
 To start you'll need the following:
 
@@ -63,7 +99,12 @@ To start you'll need the following:
 - [macrecovery.py](https://github.com/acidanthera/OpenCorePkg/releases)
 
 - This will require [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) installed.
-#
+
+</details>
+
+<details>  
+<summary><strong>Hackintosh Guide </strong></summary>
+</br>
 
 1. To grab legacy installers is super easy, first grab a copy of [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
 
@@ -171,8 +212,17 @@ This will take some time, however once you're finished you should get either Bas
 
 19. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
 
+
+#
+
+
+</details>
+
 #
 ## Lenovo ThinkPad T440s OpenCore Update Guide
+<details>  
+<summary><strong>Update OpenCore </strong></summary>
+</br>
 
 1. Download and install the [OpenCore Updater](https://github.com/mswgen/oc-updater/releases).
 2. When the app opens, press Get Started. A dialog will appear asking you to select the EFI directory.
@@ -184,8 +234,13 @@ This will take some time, however once you're finished you should get either Bas
 8. When the app finishes downloading, it will create a backup of your old EFI and will swap files with the new ones.
 9. Then, it will update config.plist. When it's done, it will display that it's done. It will also display the list of not updated kexts, the backup directory, and that OpenCore Vault is disabled(if it was enabled). You need to reboot your computer to see the changes.
 
+</details>
 
-#
+## Post-Install Tweaks 
+<details>  
+<summary><strong>Recommended Tweaks </strong></summary>
+</br>
+
 ### Bios
 These are the recommended settings to have everything working properly:
 
@@ -312,7 +367,14 @@ You can specify other country codes like: **US**, **CN**, **#a**, etc by going i
 - `EFI/OC/Config.plist > DeviceProperties > Add > PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` and rename/uncomment:
 - `#country-code` to `country-code` and set the desired value (**#a** is the preset value, replace with the country code that you need)
 
-### Credits
+</details>
+
+## Credits
+
+<details>  
+<summary><strong>Special Thanks to...</strong></summary>
+</br>
+
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
 - [benbender](https://github.com/benbender) for **SSDT-BATX**, **Touchscreen Gestures** and **ACPI refinements**
 - [Sniki](https://github.com/Sniki) for creating the original OC EFI files to make this hackintosh project possible.
