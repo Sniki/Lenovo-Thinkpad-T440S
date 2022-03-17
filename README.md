@@ -63,9 +63,9 @@
 - Docking Station VGA Port
 - Docking Station DVI Port
 
-#
+
 ### What doesn't work:
-- DRM contenthttps://github.com/acidanthera/OpenCorePkg/releases 
+- DRM content https://github.com/acidanthera/OpenCorePkg/releases 
 - FingerPrint Reader
 - Docking Station Kernel Panic if `Sleep, Reboot, Shutdown` attempted while external display connected on one of the Dock Ports
 - Docking Station DisplayPort Audio
