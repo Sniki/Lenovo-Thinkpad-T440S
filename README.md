@@ -124,6 +124,8 @@ cd Paste_Folder_Path
 
 python macrecovery.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download
 
+ ## Lion (10.7) (Alternate Command):
+
 python macrecovery.py -b Mac-C3EC7CD22292981F -m 00000000000F0HM00 download
 
  ## Mountain Lion (10.8):
