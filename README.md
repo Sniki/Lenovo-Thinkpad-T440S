@@ -191,7 +191,7 @@ This will take some time, however once you're finished you should get either Bas
 
 8. Restart your computer.
 
-9. Open BIOS and disable all the security options.
+9. Open the BIOS and disable all the security options. (Security Chip, Intel (R) AT Module Activation, and Computrace Module)
 
 10. Boot via your Flash Drive.
 
