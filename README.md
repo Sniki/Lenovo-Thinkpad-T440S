@@ -102,7 +102,7 @@ To start you'll need the following:
 </details>
 
 <details>  
-<summary><strong>Hackintosh Guide </strong></summary>
+<summary><strong>Installing macOS </strong></summary>
 </br>
 
 1. To grab legacy installers is super easy, first grab a copy of [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
@@ -219,10 +219,8 @@ This will take some time, however once you're finished you should get either Bas
 
 </details>
 
-#
-## Lenovo ThinkPad T440s OpenCore Update Guide
 <details>  
-<summary><strong>Update OpenCore </strong></summary>
+<summary><strong>Updating OpenCore </strong></summary>
 </br>
 
 1. Download and install the [OpenCore Updater](https://github.com/mswgen/oc-updater/releases).
@@ -237,9 +235,8 @@ This will take some time, however once you're finished you should get either Bas
 
 </details>
 
-## Post-Install Tweaks 
 <details>  
-<summary><strong>Obligatory Tweaks </strong></summary>
+<summary><strong>Post-Install Tweaks </strong></summary>
 </br>
 
 ### Bios
