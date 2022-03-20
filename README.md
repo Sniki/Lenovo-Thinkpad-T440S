@@ -271,7 +271,7 @@ First we need to download these three Applications: [Hackintool](https://github.
 
 
 ### Non TouchScreen Displays
-If your Lenovo ThinkPad T440S doesn't have a TouchScreen display, it is required for you to disable the kext responsible for TouchScreen.
+If your Lenovo ThinkPad T440s doesn't have a TouchScreen display, it is required for you to disable the kext responsible for TouchScreen.
 Go to `EFI/OC/Config.plist > Kernel > Add >` and disable the 4 following kexts:
 - `VoodooI2CServices.kext - Enabled = No`
 - `VoodooGPIO.kext - Enabled = No`
@@ -279,7 +279,7 @@ Go to `EFI/OC/Config.plist > Kernel > Add >` and disable the 4 following kexts:
 - `VoodooI2CHID.kext - Enabled = No`
 
 ### TouchPad
-Most of the users have probably already upgraded to a T450S Touchpad (the one with Physical Buttons) and this one does work natively, no need to touch anything.
+Most of the users have probably already upgraded to a Lenovo ThinkPad T450s Touchpad (the one with Physical Buttons) and this one does work natively, no need to touch anything.
 For you users that have the standard Touchpad that came with this laptop, you have to do some changes as VoodooRMI doesn't seem to work very well with them.
 
 Go to `EFI/OC/Config.plist > Kernel > Add` and disable the VoodooRMI kexts:
