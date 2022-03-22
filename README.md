@@ -205,13 +205,15 @@ This will take some time, however once you're finished you should get either Bas
 
 15. Now after install again boot into your usb drive but now boot into the drive in which you installed macOS to.
 
-16. Open Clover Configurator and Mount the EFI partition of the drive you want to boot off of.
+16. Download and install [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/).
 
-17. Now copy my EFI Folder and overrite it with the one system created.
+17. Open [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) and Mount the EFI partition of the drive you want to boot off of.
 
-18. Now try booting macOS without the USB drive.
+18. Now copy my EFI Folder and overrite it with the one system created.
 
-19. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
+19. Now try booting macOS without the USB drive.
+
+20. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
 
 
 #
