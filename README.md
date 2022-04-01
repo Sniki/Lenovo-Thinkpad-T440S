@@ -20,7 +20,7 @@
 |:-------------------|:----------------------------------------------------------------------------------------------------------|
 | Processor          | Intel Core i5-4300U (2C, 4T,  1.9GHz / 2.5GHz) vPro (The best compatibility with macOS)                                                              
 | Graphics           | Integrated Intel HD Graphics 4400                                                                         |
-| Memory             | 12 GB DDR3 (4GB Soldered + 8GB SODIMM DDR3, dual-channel                                                        |
+| Memory             | 12 GB DDR3 (4GB Soldered + 8GB SODIMM DDR3, dual-channel)                                                       |
 | Display            | 14" HD (1600x900) TN, non-touch                                                                       |
 | Storage            | 512 GB SATA SSD + 16 GB mSATA SSD                                                                             |
 | Ethernet           | Intel Ethernet                                                         |
