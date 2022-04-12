@@ -22,7 +22,7 @@
 | Graphics           | Integrated Intel HD Graphics 4400                                                                         |
 | Memory             | 12 GB DDR3 (4GB Soldered + 8GB SODIMM DDR3, dual-channel)                                                       |
 | Display            | 14" HD (1600x900) TN, non-touch                                                                       |
-| Storage            | 512 GB SATA SSD + 16 GB mSATA SSD                                                                             |
+| Storage            | 1 TB Pioneer SATA SSD + 16 GB mSATA SSD                                                                             |
 | Ethernet           | Intel Ethernet                                                         |
 | WLAN + Bluetooth   | Intel Wifi 7260ngw + Bluetooth 4.0                                        |
 | Camera             | 720p resolution, low light sensitive, fixed focus                                                       |
