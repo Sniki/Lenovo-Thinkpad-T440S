@@ -1,10 +1,24 @@
 # Lenovo Thinkpad T440S
 
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.2.3-red)](https://www.apple.com/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.7-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_12.4-green)](https://www.apple.com/macos/monterey/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg)
 
-Lenovo Thinkpad T440S using OpenCore Bootloader
+Hackintosh OSX build for **Lenovo Thinkpad T440S** using **OpenCore** Bootloader.
 
+## This repo is based on: [https://github.com/Sniki/Lenovo-Thinkpad-T440S](Sniki/Lenovo-Thinkpad-T440S).
+
+Confirmed to work on my own T440S laptop with MacOS Monterey 12.4
+
+<img src="https://i.imgur.com/YLbhKF9.jpg" width="600" />
+
+## Changelog
+
+##### 18.05.2022 
+- Update **OpenCore** version to 0.7.9 stable
+- Update **AirportItlwm** version to 2.1.0 stable (to support OSX Monterey)
+
+## Documentation
+<details>
 
 ### What works:
 - Intel HD Graphics 4400 QE/CI
@@ -162,6 +176,10 @@ You can specify other country codes like: **US**, **CN**, **#a**, etc by going i
 - `EFI/OC/Config.plist > DeviceProperties > Add > PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)` and rename/uncomment:
 - `#country-code` to `country-code` and set the desired value (**#a** is the preset value, replace with the country code that you need)
 
-### Credits
+</details>  
+  
+## Credits
+- [Sniki](https://github.com/Sniki/Lenovo-Thinkpad-T440S) for initial **OpenCore** build for ThinkPad T440s
+- [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) for **Intel Wi-Fi** driver
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
 - [benbender](https://github.com/benbender) for **SSDT-BATX**, **Touchscreen Gestures** and **ACPI refinements**
