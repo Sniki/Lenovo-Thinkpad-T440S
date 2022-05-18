@@ -5,7 +5,7 @@
 
 Hackintosh OSX build for **Lenovo Thinkpad T440S** using **OpenCore** Bootloader.
 
-## This repo is based on: [https://github.com/Sniki/Lenovo-Thinkpad-T440S](Sniki/Lenovo-Thinkpad-T440S).
+## This repo is based on: [Sniki/Lenovo-Thinkpad-T440S]([Sniki/Lenovo-Thinkpad-T440S](https://github.com/Sniki/Lenovo-Thinkpad-T440S)).
 
 Confirmed to work on my own T440S laptop with MacOS Monterey 12.4
 
