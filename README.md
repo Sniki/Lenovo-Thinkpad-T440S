@@ -1,6 +1,6 @@
 # Lenovo Thinkpad T440S
 
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_12.4-green)](https://www.apple.com/macos/monterey/)
+[![macOS](https://img.shields.io/badge/macOS-Monterey_12.4-green)](https://www.apple.com/macos/monterey/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 Hackintosh OSX build for **Lenovo Thinkpad T440S** using **OpenCore** Bootloader.
@@ -8,6 +8,8 @@ Hackintosh OSX build for **Lenovo Thinkpad T440S** using **OpenCore** Bootloader
 ## This repo is based on: [https://github.com/Sniki/Lenovo-Thinkpad-T440S](Sniki/Lenovo-Thinkpad-T440S).
 
 Confirmed to work on my own T440S laptop with MacOS Monterey 12.4
+
+This machine is used for iOS app development using XCode IDE.
 
 <img src="https://i.imgur.com/YLbhKF9.jpg" width="600" />
 
