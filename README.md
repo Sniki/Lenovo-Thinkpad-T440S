@@ -29,7 +29,7 @@
 | Camera             | 720p resolution, low light sensitive, fixed focus                                                       |
 | Audio support      | HD Audio, Realtek ALC3245 codec, stereo speakers 1Wx2, dual array microphone, combo audio/microphone jack |
 | Keyboard           | 6-row, spill-resistant, multimedia Fn keys, LED backlight                                                 |
-| Battery            | Internal Li-Polymer 3-cell (68) and External Li-Ion 3-cell (68)                       |
+| Battery            | Internal Li-Polymer 3-cell (68) and External Li-Ion 6-cell (68+)                       |
 
 
 </details>
