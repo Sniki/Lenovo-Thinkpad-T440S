@@ -6,7 +6,7 @@
 ## [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.6-red)](https://www.apple.com/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 ## This repository is based on a project created by [Sniki](https://github.com/Sniki).
 
