@@ -210,7 +210,7 @@ This will take some time, however once you're finished you should get either Bas
 
 17. Open [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) and Mount the EFI partition of the drive you want to boot off of.
 
-18. Now copy my EFI Folder and overrite it with the one system created.
+18. Now copy my EFI Folder and overwrite it with the one system created.
 
 19. Now try booting macOS without the USB drive.
 
