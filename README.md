@@ -171,6 +171,10 @@ python macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
 
 python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
 
+ ## Monterey (12) (Monterey is still in it's testing phase so please still use Big Sur or older.)
+
+python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+
 This will take some time, however once you're finished you should get either BaseSystem or RecoveryImage files:
 
 ![macrecovery-after 4c24ba88](https://user-images.githubusercontent.com/72415505/156629881-3d0e18a5-79cf-465e-a054-44b39a77b47f.jpg) <img width="973" alt="basesystem-example 93778929" src="https://user-images.githubusercontent.com/72415505/156629925-77869c1f-19ee-463f-bcc7-cafb2be09866.png">
