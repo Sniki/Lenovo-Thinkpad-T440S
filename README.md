@@ -1,7 +1,8 @@
 # Lenovo ThinkPad T440s
 
 
-![repository-open-graph-template 6](https://user-images.githubusercontent.com/72415505/163413851-bfa3dbd9-6e80-42fb-898e-f0ea461ca311.png)
+![repository-open-graph-template 083](https://user-images.githubusercontent.com/72415505/188652682-618ccf23-0620-4f65-8984-f78eba927dcb.png)
+
 #
 ## [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
 
