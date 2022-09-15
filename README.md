@@ -70,6 +70,7 @@
 
 ## What doesn't work:
 - FingerPrint Reader
+- Bluetooth (Monterey)
 
 
 
