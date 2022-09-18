@@ -1,7 +1,10 @@
 # Lenovo ThinkPad T440s
 
 
-![repository-open-graph-template 083](https://user-images.githubusercontent.com/72415505/188652682-618ccf23-0620-4f65-8984-f78eba927dcb.png)
+![repository-open-graph-template 7](https://user-images.githubusercontent.com/72415505/190926965-9c8354df-82af-4c4c-b533-e24e1b76bfa7.png)
+
+#
+![IMG_0804](https://user-images.githubusercontent.com/72415505/190926980-e5b4858b-32a1-40ae-84b6-5c97aabdb65c.jpeg)
 
 #
 ## [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
@@ -13,7 +16,7 @@
 ## This repository is based on a project created by [Sniki](https://github.com/Sniki).
 
 
-## Lenovo ThinkPad T440s + 2013 MacBook Pro SMBIOS using OpenCore Bootloader
+## Lenovo ThinkPad T440s + 2013 (Big Sur) / 2014 (Monterey) MacBook Pro SMBIOS using OpenCore Bootloader
 
 <details>  
 <summary><strong>My ThinkPad T440s Hardware Specs 💻</strong></summary>
