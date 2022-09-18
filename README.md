@@ -3,8 +3,6 @@
 
 ![repository-open-graph-template 7](https://user-images.githubusercontent.com/72415505/190926965-9c8354df-82af-4c4c-b533-e24e1b76bfa7.png)
 
-#
-![IMG_0804](https://user-images.githubusercontent.com/72415505/190926980-e5b4858b-32a1-40ae-84b6-5c97aabdb65c.jpeg)
 
 #
 ## [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
@@ -17,6 +15,17 @@
 
 
 ## Lenovo ThinkPad T440s + 2013 (Big Sur) / 2014 (Monterey) MacBook Pro SMBIOS using OpenCore Bootloader
+
+
+<details>  
+<summary><strong>Recent Changes </strong></summary>
+</br>
+- 09/18/2022: Changed the SMBIOS from MacBookPro11,1 to MacBookPro11,5 for macOS Monterey.
+
+</details>
+
+</details>
+
 
 <details>  
 <summary><strong>My ThinkPad T440s Hardware Specs 💻</strong></summary>
