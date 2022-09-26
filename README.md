@@ -1,7 +1,8 @@
 # Lenovo ThinkPad T440s
 
 
-![repository-open-graph-template 7](https://user-images.githubusercontent.com/72415505/190926965-9c8354df-82af-4c4c-b533-e24e1b76bfa7.png)
+![repository-open-graph-template new](https://user-images.githubusercontent.com/72415505/192321519-9ccf8bf8-a79a-401c-991a-5af1d3d19d50.png)
+
 
 
 #
