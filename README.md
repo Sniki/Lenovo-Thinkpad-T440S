@@ -80,11 +80,11 @@
 - Docking Station VGA Port
 - Docking Station DVI Port
 - Docking Station DisplayPort Audio
+- Bluetooth
 - [DRM content](https://github.com/acidanthera/OpenCorePkg/releases) 
 
 ## What doesn't work:
 - FingerPrint Reader
-- Bluetooth (Monterey)
 
 
 
