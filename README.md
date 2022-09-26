@@ -15,7 +15,7 @@
 ## This repository is based on a project created by [Sniki](https://github.com/Sniki).
 
 
-## Lenovo ThinkPad T440s + 2013 (Big Sur) / 2014 (Monterey) MacBook Pro SMBIOS using OpenCore Bootloader
+## Lenovo ThinkPad T440s OpenCore Configuration
 
 
 <details>  
@@ -120,7 +120,7 @@ To start you'll need the following:
 </details>
 
 <details>  
-<summary><strong>Installing macOS </strong></summary>
+<summary><strong>Creating the USB Installer </strong></summary>
 </br>
 
 1. To grab legacy installers is super easy, first grab a copy of [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
@@ -131,64 +131,23 @@ To start you'll need the following:
 #
 2. From here, you'll want to open up a Command Prompt and cd into the macrecovery folder that we copied earlier:
 
-cd Paste_Folder_Path
+```cd Paste_Folder_Path```
 
 <img width="917" alt="command-prompt 53392eba" src="https://user-images.githubusercontent.com/72415505/156628358-c2692037-80ac-40f9-bb3b-9a424442dafe.png">
 
 #
 3. Now run one of the following depending on what version of macOS you want(Note these scripts rely on [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) support, please install if you haven't already):
 
- ## Lion (10.7):
-
-python macrecovery.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download
-
- ## Lion (10.7) (Alternate Command):
-
-python macrecovery.py -b Mac-C3EC7CD22292981F -m 00000000000F0HM00 download
-
- ## Mountain Lion (10.8):
-
-python macrecovery.py -b Mac-7DF2A3B5E5D671ED -m 00000000000F65100 download
-
- ## Mavericks (10.9):
-
-python macrecovery.py -b Mac-F60DEB81FF30ACF6 -m 00000000000FNN100 download
-
- ## Yosemite (10.10):
-
-python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000GDVW00 download
-
- ## El Capitan (10.11):
-
-python macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000GQRX00 download
-
- ## Sierra (10.12):
-
-python macrecovery.py -b Mac-77F17D7DA9285301 -m 00000000000J0DX00 download
-
- ## High Sierra (10.13)
-
-python macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
-
- ## High Sierra (10.13) (Alternate Command)
- 
-python macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
-
- ## Mojave (10.14)
-
-python macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
-
- ## Catalina (10.15)
-
+ ```
+# Catalina (10.15)
 python macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
 
- ## Big Sur (11)
-
+# Big Sur (11)
 python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
 
- ## Monterey (12)
-
-python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+# Monterey (12)
+python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+```
 
 This will take some time, however once you're finished you should get either BaseSystem or RecoveryImage files:
 
@@ -213,29 +172,36 @@ This will take some time, however once you're finished you should get either Bas
 
 8. Restart your computer.
 
-9. Open the BIOS and disable all the security options. (Security Chip, Intel (R) AT Module Activation, and Computrace Module)
 
-10. Boot via your Flash Drive.
+</details>
+
+<details>  
+<summary><strong>Installing macOS</strong></summary>
+</br>
+
+1. Open the BIOS and disable all the security options. (Security Chip, Intel (R) AT Module Activation, and Computrace Module)
+
+2. Boot via your Flash Drive.
 
 11. Boot the Hackintosh installer.
 
 12. Now open Disk Utility and format your internal or external Hard Drive or SSD as APFS.
 
-13. Install macOS.
+13. Follow the on-screen prompts and install macOS.
 
 14. Your system might reboot during the install.
 
-15. Now after install again boot into your usb drive but now boot into the drive in which you installed macOS to.
+15. Now after install again boot into your usb drive and then select the drive that you installed macOS on.
 
-16. Download and install [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/).
+16. Download and install [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/).
 
-17. Open [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) and Mount the EFI partition of the drive you want to boot off of.
+17. Open [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) and Mount the EFI partition of the drive you want to boot off of.
 
-18. Now copy my EFI Folder and overwrite it with the one system created.
+18. Now copy the EFI Folder to the EFI Partition and overwrite it with the one system created.
 
-19. Now try booting macOS without the USB drive.
+. Now try booting macOS without the USB drive.
 
-20. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
+. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
 
 
 #
