@@ -140,6 +140,9 @@ To start you'll need the following:
 3. Now run one of the following depending on what version of macOS you want(Note these scripts rely on [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) support, please install if you haven't already):
 
  ```
+# Mojave (10.14)
+python macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
+
 # Catalina (10.15)
 python macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
 
@@ -148,6 +151,8 @@ python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
 
 # Monterey (12)
 python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+
+# Ventura (13) (Coming Soon)
 ```
 
 This will take some time, however once you're finished you should get either BaseSystem or RecoveryImage files:
