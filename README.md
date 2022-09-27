@@ -102,21 +102,12 @@
 
 To start you'll need the following:
 
-- A Lenovo ThinkPad T440s (Obviously)
-
-- A PC with a copy of Windows 10 or higher installed
-
-- 4GB USB Stick
-
-- [Rufus](https://rufus.ie/en/)
-
- - For USB larger than 16 GB to format in FAT32, use the [Rufus](https://rufus.ie/en/) method.
-
-- A copy of the [EFI](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/) folder
-
-- [macrecovery.py](https://github.com/acidanthera/OpenCorePkg/releases)
-
-- This will require [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) installed.
+You must have the following items:
+- Lenovo ThinkPad T440s (Obviously 😁).
+- Access to a working Windows machine with Python installed.
+- A pendrive with more than 4 GB (Keep in mind, during the preperation we will format the disk to create the install media).
+- an Internet connection via Ethernet.
+- 1-2 hours of your time.
 
 </details>
 
