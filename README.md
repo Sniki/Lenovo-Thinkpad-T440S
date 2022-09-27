@@ -1,8 +1,7 @@
-# Lenovo ThinkPad T440s
+# Lenovo ThinkPad T440s OpenCore Configuration
 
 
 ![repository-open-graph-template new](https://user-images.githubusercontent.com/72415505/192321519-9ccf8bf8-a79a-401c-991a-5af1d3d19d50.png)
-
 
 
 
@@ -10,7 +9,6 @@
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6-green)](https://www.apple.com/macos/monterey/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg)
 
-## Lenovo ThinkPad T440s OpenCore Configuration
 
 <p align="center">
    <strong>Status: Maintained</strong>
