@@ -5,21 +5,34 @@
 
 
 
-#
-## [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.8-red)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6-green)](https://www.apple.com/macos/monterey/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg)
 
-## This repository is based on a project created by [Sniki](https://github.com/Sniki).
-
-
 ## Lenovo ThinkPad T440s OpenCore Configuration
 
+<p align="center">
+   <strong>Status: Maintained</strong>
+   <br />
+   <strong>OpenCore Version: </strong>0.8.3
+   <br />
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
+   <br />
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/discussions">Report Bug</a>
+   ·
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s">Recent Changes</a>
+   ·
+   <a href=https://www.youtube.com/watch?v=6cAxwXj5Zy4">YouTube Review</a>
+   ·
+   <a href="https://github.com/Sniki/Lenovo-Thinkpad-T440S">Original Repo</a>
+  </p>
+</p>
+</br>
 
+#
 <details>  
-<summary><strong>Recent Changes </strong></summary>
+<summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
 **09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
