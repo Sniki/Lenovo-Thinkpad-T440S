@@ -1,26 +1,41 @@
-# Lenovo ThinkPad T440s
+# Lenovo ThinkPad T440s OpenCore Configuration
 
 
-![repository-open-graph-template 7](https://user-images.githubusercontent.com/72415505/190926965-9c8354df-82af-4c4c-b533-e24e1b76bfa7.png)
+![repository-open-graph-template new](https://user-images.githubusercontent.com/72415505/192321519-9ccf8bf8-a79a-401c-991a-5af1d3d19d50.png)
 
 
-#
-## [Download the EFI Folder](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/)
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.8-red)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6-green)](https://www.apple.com/macos/monterey/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg)
 
-## This repository is based on a project created by [Sniki](https://github.com/Sniki).
 
-
-## Lenovo ThinkPad T440s + 2013 (Big Sur) / 2014 (Monterey) MacBook Pro SMBIOS using OpenCore Bootloader
-
-
-<details>  
-<summary><strong>Recent Changes </strong></summary>
+<p align="center">
+   <strong>Status: Maintained</strong>
+   <br />
+   <strong>OpenCore Version: </strong>0.8.3
+   <br />
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
+   <br />
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/discussions">Report Bug</a>
+   ·
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s">Recent Changes</a>
+   ·
+   <a href=https://www.youtube.com/watch?v=6cAxwXj5Zy4">YouTube Review</a>
+   ·
+   <a href="https://github.com/Sniki/Lenovo-Thinkpad-T440S">Original Repo</a>
+  </p>
+</p>
 </br>
-- 09/18/2022: Changed the SMBIOS from MacBookPro11,1 to MacBookPro11,5 for macOS Monterey.
+
+#
+<details>  
+<summary><strong>Recent Changes ⌚️ </strong></summary>
+</br>
+
+**09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
+
+**09/18/2022** : Changed the SMBIOS from MacBookPro11,1 to MacBookPro11,5 for macOS Monterey.
 
 </details>
 
@@ -82,7 +97,6 @@
 
 ## What doesn't work:
 - FingerPrint Reader
-- Bluetooth (Monterey)
 
 
 
@@ -99,26 +113,17 @@
 
 To start you'll need the following:
 
-- A Lenovo ThinkPad T440s (Obviously)
-
-- A PC with a copy of Windows 10 or higher installed
-
-- 4GB USB Stick
-
-- [Rufus](https://rufus.ie/en/)
-
- - For USB larger than 16 GB to format in FAT32, use the [Rufus](https://rufus.ie/en/) method.
-
-- A copy of the [EFI](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440S/releases/) folder
-
-- [macrecovery.py](https://github.com/acidanthera/OpenCorePkg/releases)
-
-- This will require [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) installed.
+You must have the following items:
+- Lenovo ThinkPad T440s (Obviously 😁).
+- Access to a working Windows machine with Python installed.
+- A pendrive with more than 4 GB (Keep in mind, during the preperation we will format the disk to create the install media).
+- an Internet connection via Ethernet.
+- 1-2 hours of your time.
 
 </details>
 
 <details>  
-<summary><strong>Installing macOS </strong></summary>
+<summary><strong>Creating the USB Installer </strong></summary>
 </br>
 
 1. To grab legacy installers is super easy, first grab a copy of [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases) and head to /Utilities/macrecovery/. Next copy the folder path for the macrecovery folder. 
@@ -129,64 +134,28 @@ To start you'll need the following:
 #
 2. From here, you'll want to open up a Command Prompt and cd into the macrecovery folder that we copied earlier:
 
-cd Paste_Folder_Path
+```cd Paste_Folder_Path```
 
 <img width="917" alt="command-prompt 53392eba" src="https://user-images.githubusercontent.com/72415505/156628358-c2692037-80ac-40f9-bb3b-9a424442dafe.png">
 
 #
 3. Now run one of the following depending on what version of macOS you want(Note these scripts rely on [Python](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab) support, please install if you haven't already):
 
- ## Lion (10.7):
-
-python macrecovery.py -b Mac-2E6FAB96566FE58C -m 00000000000F25Y00 download
-
- ## Lion (10.7) (Alternate Command):
-
-python macrecovery.py -b Mac-C3EC7CD22292981F -m 00000000000F0HM00 download
-
- ## Mountain Lion (10.8):
-
-python macrecovery.py -b Mac-7DF2A3B5E5D671ED -m 00000000000F65100 download
-
- ## Mavericks (10.9):
-
-python macrecovery.py -b Mac-F60DEB81FF30ACF6 -m 00000000000FNN100 download
-
- ## Yosemite (10.10):
-
-python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000GDVW00 download
-
- ## El Capitan (10.11):
-
-python macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000GQRX00 download
-
- ## Sierra (10.12):
-
-python macrecovery.py -b Mac-77F17D7DA9285301 -m 00000000000J0DX00 download
-
- ## High Sierra (10.13)
-
-python macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
-
- ## High Sierra (10.13) (Alternate Command)
- 
-python macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
-
- ## Mojave (10.14)
-
+ ```
+# Mojave (10.14)
 python macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
 
- ## Catalina (10.15)
-
+# Catalina (10.15)
 python macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
 
- ## Big Sur (11)
-
+# Big Sur (11)
 python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
 
- ## Monterey (12)
+# Monterey (12)
+python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
-python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+# Ventura (13) (Coming Soon)
+```
 
 This will take some time, however once you're finished you should get either BaseSystem or RecoveryImage files:
 
@@ -211,29 +180,36 @@ This will take some time, however once you're finished you should get either Bas
 
 8. Restart your computer.
 
-9. Open the BIOS and disable all the security options. (Security Chip, Intel (R) AT Module Activation, and Computrace Module)
 
-10. Boot via your Flash Drive.
+</details>
+
+<details>  
+<summary><strong>Installing macOS</strong></summary>
+</br>
+
+1. Open the BIOS and disable all the security options. (Security Chip, Intel (R) AT Module Activation, and Computrace Module)
+
+2. Boot via your Flash Drive.
 
 11. Boot the Hackintosh installer.
 
 12. Now open Disk Utility and format your internal or external Hard Drive or SSD as APFS.
 
-13. Install macOS.
+13. Follow the on-screen prompts and install macOS.
 
 14. Your system might reboot during the install.
 
-15. Now after install again boot into your usb drive but now boot into the drive in which you installed macOS to.
+15. Now after install again boot into your usb drive and then select the drive that you installed macOS on.
 
-16. Download and install [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/).
+16. Download and install [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/).
 
-17. Open [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) and Mount the EFI partition of the drive you want to boot off of.
+17. Open [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) and Mount the EFI partition of the drive you want to boot off of.
 
-18. Now copy my EFI Folder and overwrite it with the one system created.
+18. Now copy the EFI Folder to the EFI Partition and overwrite it with the one system created.
 
-19. Now try booting macOS without the USB drive.
+. Now try booting macOS without the USB drive.
 
-20. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
+. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
 
 
 #
