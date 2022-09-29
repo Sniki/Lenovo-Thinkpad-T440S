@@ -33,9 +33,11 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
+**09/29/2022** : Added TrackPoint support and fixed the Instant Wake Issue when in sleep mode.
+
 **09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
 
-**09/18/2022** : Changed the SMBIOS from MacBookPro11,1 to MacBookPro11,5 for macOS Monterey.
+**09/18/2022** : Changed the SMBIOS from ```MacBookPro11,1``` to  ```MacBookPro11,5``` for macOS Monterey.
 
 </details>
 
@@ -74,6 +76,7 @@
 - Brightness Control
 - TouchScreen with Gestures
 - Keyboard & Backlit
+- Trackpoint (Trackpoint / Nipple Mouse Warriors, rejoice!)
 - TouchPad with Gestures
 - Dual Battery Support
 - Secure Boot
@@ -103,6 +106,21 @@
 </details>
 
 </details>
+
+<details>  
+<summary><strong>Photos 📷 </strong></summary>
+</br>
+
+
+![IMG_0864 copy](https://user-images.githubusercontent.com/72415505/193050341-594325eb-5070-439d-adf6-0675eb9205e4.jpg)
+
+![CA22B0F4-5E65-4EFC-A22C-982CBE542B40](https://user-images.githubusercontent.com/72415505/193050942-1d1e1d86-31f6-4d40-943b-6965ea132d00.jpeg)
+
+![659834E9-136E-4368-8D4A-E66CF6E17244](https://user-images.githubusercontent.com/72415505/193051479-9ba92d2e-3369-4abb-ad70-7467b20a9b89.jpeg)
+
+</details>
+
+
 
 #
 ## Lenovo ThinkPad T440s Hackintosh Guide
@@ -374,3 +392,5 @@ You can specify other country codes like: **US**, **CN**, **#a**, etc by going i
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
 - [benbender](https://github.com/benbender) for **SSDT-BATX**, **Touchscreen Gestures** and **ACPI refinements**
 - [Sniki](https://github.com/Sniki) for creating the original OC EFI files to make this hackintosh project possible.
+- [ShiftHackZ](https://github.com/ShiftHackZ) and [valnoxy](https://github.com/valnoxy) for making macOS Monterey on a ThinkPad T440s possible.
+- [mswgen](https://github.com/mswgen) for the OpenCore Updater application for macOS.
