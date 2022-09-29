@@ -76,6 +76,7 @@
 - Brightness Control
 - TouchScreen with Gestures
 - Keyboard & Backlit
+- Trackpoint (Trackpoint / Nipple Mouse Warriors, rejoice!)
 - TouchPad with Gestures
 - Dual Battery Support
 - Secure Boot
