@@ -8,7 +8,7 @@
   </p>
 </p>
 
-![-----------------------------------------------------](https://dl.exploitox.de/t440p-oc/rainbow.png)
+#
 
 ### OpenCore Version 0.8.3 IWFIX Edition (09.29.2022)
 
