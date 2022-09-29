@@ -19,7 +19,7 @@
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/discussions">Report Bug</a>
    ·
-   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s">Recent Changes</a>
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/blob/main/CHANGELOG.md">Recent Changes</a>
    ·
    <a href=https://www.youtube.com/watch?v=6cAxwXj5Zy4">YouTube Review</a>
    ·
