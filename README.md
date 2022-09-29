@@ -106,6 +106,21 @@
 
 </details>
 
+<details>  
+<summary><strong>Photos 📷 </strong></summary>
+</br>
+
+
+![IMG_0864 copy](https://user-images.githubusercontent.com/72415505/193050341-594325eb-5070-439d-adf6-0675eb9205e4.jpg)
+
+![CA22B0F4-5E65-4EFC-A22C-982CBE542B40](https://user-images.githubusercontent.com/72415505/193050942-1d1e1d86-31f6-4d40-943b-6965ea132d00.jpeg)
+
+![659834E9-136E-4368-8D4A-E66CF6E17244](https://user-images.githubusercontent.com/72415505/193051479-9ba92d2e-3369-4abb-ad70-7467b20a9b89.jpeg)
+
+</details>
+
+
+
 #
 ## Lenovo ThinkPad T440s Hackintosh Guide
 
