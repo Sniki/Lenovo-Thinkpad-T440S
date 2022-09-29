@@ -33,11 +33,11 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
-**09/29/2022** : Fixed the Instant Wake Issue when in sleep mode.
+**09/29/2022** : Added TrackPoint support and fixed the Instant Wake Issue when in sleep mode.
 
 **09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
 
-**09/18/2022** : Changed the SMBIOS from MacBookPro11,1 to MacBookPro11,5 for macOS Monterey.
+**09/18/2022** : Changed the SMBIOS from ```MacBookPro11,1``` to  ```MacBookPro11,5``` for macOS Monterey.
 
 </details>
 
