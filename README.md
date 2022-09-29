@@ -376,3 +376,5 @@ You can specify other country codes like: **US**, **CN**, **#a**, etc by going i
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC** and **BrightnessKeys**
 - [benbender](https://github.com/benbender) for **SSDT-BATX**, **Touchscreen Gestures** and **ACPI refinements**
 - [Sniki](https://github.com/Sniki) for creating the original OC EFI files to make this hackintosh project possible.
+- [ShiftHackZ](https://github.com/ShiftHackZ) for making macOS Monterey on a ThinkPad T440s possible.
+- [mswgen](https://github.com/mswgen) for the OpenCore Updater application for macOS.
