@@ -19,7 +19,7 @@
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/discussions">Report Bug</a>
    ·
-   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s">Recent Changes</a>
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/blob/main/CHANGELOG.md">Recent Changes</a>
    ·
    <a href=https://www.youtube.com/watch?v=6cAxwXj5Zy4">YouTube Review</a>
    ·
@@ -76,7 +76,7 @@
 - Brightness Control
 - TouchScreen with Gestures
 - Keyboard & Backlit
-- Trackpoint (Trackpoint / Nipple Mouse Warriors, rejoice!)
+- TrackPoint (TrackPoint / Nipple Mouse Warriors, rejoice!)
 - TouchPad with Gestures
 - Dual Battery Support
 - Secure Boot
@@ -209,13 +209,13 @@ This will take some time, however once you're finished you should get either Bas
 
 2. Boot via your Flash Drive.
 
-11. Boot the Hackintosh installer.
+11. Boot the macOS installer.
 
 12. Now open Disk Utility and format your internal or external Hard Drive or SSD as APFS.
 
 13. Follow the on-screen prompts and install macOS.
 
-14. Your system might reboot during the install.
+14. Your system might reboot during the installation.
 
 15. Now after install again boot into your usb drive and then select the drive that you installed macOS on.
 
@@ -225,9 +225,9 @@ This will take some time, however once you're finished you should get either Bas
 
 18. Now copy the EFI Folder to the EFI Partition and overwrite it with the one system created.
 
-. Now try booting macOS without the USB drive.
+19. Now try booting macOS without the USB drive.
 
-. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
+20. Congratulations, you've successfully hackintoshed your Lenovo ThinkPad T440s.
 
 
 #
@@ -241,7 +241,7 @@ This will take some time, however once you're finished you should get either Bas
 
 1. Download and install the [OpenCore Updater](https://github.com/mswgen/oc-updater/releases).
 2. When the app opens, press Get Started. A dialog will appear asking you to select the EFI directory.
-3. Mount the EFI Partition on your drive using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/).
+3. Mount the EFI Partition on your drive using [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/).
 4. Select your EFI directory. It's usually /Volumes/EFI/EFI. It should have BOOT and OC directories inside.
 5. If your OpenCore version is detected, your OpenCore version and list of kexts you are using will be displayed. If your OpenCore version is not detected, you will be asked to select the OpenCore version you are using. Select the version you are using and press Select this version.
 6. If you are not using the latest version of OpenCore, the app will ask you to update. Press Update to update OpenCore.
