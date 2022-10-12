@@ -1270,6 +1270,42 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>Lilu.kext</string>
+				<key>Comment</key>
+				<string>Lilu.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/Lilu</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VirtualSMC.kext</string>
+				<key>Comment</key>
+				<string>VirtualSMC.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VirtualSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>ACPIBatteryManager.kext</string>
 				<key>Comment</key>
 				<string>ACPIBatteryManager.kext</string>
@@ -1360,24 +1396,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Lilu.kext</string>
-				<key>Comment</key>
-				<string>Lilu.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Lilu</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>RealtekCardReader.kext</string>
 				<key>Comment</key>
 				<string>RealtekCardReader.kext</string>
@@ -1432,24 +1450,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
-				<key>Comment</key>
-				<string>VirtualSMC.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string>VoodooPS2Controller.kext</string>
@@ -1457,42 +1457,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Controller</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string>WhateverGreen.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>YogaSMC.kext</string>
-				<key>Comment</key>
-				<string>YogaSMC.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/YogaSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1565,6 +1529,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Trackpad</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string>WhateverGreen.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/WhateverGreen</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>YogaSMC.kext</string>
+				<key>Comment</key>
+				<string>YogaSMC.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/YogaSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1772,7 +1772,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>any</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
@@ -2284,7 +2284,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>BootKicker.efi</string>
 				<key>Path</key>
@@ -2306,7 +2306,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>ChipTune.efi</string>
 				<key>Path</key>
@@ -2328,7 +2328,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>CleanNvram.efi</string>
 				<key>Path</key>
@@ -2350,7 +2350,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>ControlMsrE2.efi</string>
 				<key>Path</key>
@@ -2372,7 +2372,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>CsrUtil.efi</string>
 				<key>Path</key>
@@ -2394,7 +2394,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>GopStop.efi</string>
 				<key>Path</key>
@@ -2416,7 +2416,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>KeyTester.efi</string>
 				<key>Path</key>
@@ -2438,7 +2438,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>MmapDump.efi</string>
 				<key>Path</key>
@@ -2460,7 +2460,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>OpenControl.efi</string>
 				<key>Path</key>
@@ -2482,7 +2482,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>OpenShell.efi</string>
 				<key>Path</key>
@@ -2504,7 +2504,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>ResetSystem.efi</string>
 				<key>Path</key>
@@ -2526,7 +2526,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>RtcRw.efi</string>
 				<key>Path</key>
@@ -2548,7 +2548,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>TpmInfo.efi</string>
 				<key>Path</key>
@@ -2840,7 +2840,7 @@
 				<key>Comment</key>
 				<string>Toggle SIP</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
