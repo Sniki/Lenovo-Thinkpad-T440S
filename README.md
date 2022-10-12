@@ -13,7 +13,7 @@
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>OpenCore Version: </strong>0.8.3
+   <strong>OpenCore Version: </strong>0.8.5
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
    <br />
@@ -33,6 +33,8 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
+**10/12/2022** : Updated from OpenCore 0.8.3 to OpenCore 0.8.5                                                          
+                                                           
 **09/29/2022** : Added TrackPoint support and fixed the Instant Wake Issue when in sleep mode.
 
 **09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
