@@ -86,16 +86,16 @@
 - Power Management
 - USB Ports
 - LAN
-- DisplayPort
+- DisplayPort (Currently not working under macOS Monterey)
 - VGA
 - Wireless and Bluetooth
 - SD Card Reader
 - Docking Station USB Ports
 - Docking Station LAN
-- Docking Station DisplayPort
-- Docking Station VGA Port
-- Docking Station DVI Port
-- Docking Station DisplayPort Audio
+- Docking Station DisplayPort (Currently not working under macOS Monterey)
+- Docking Station VGA Port (Currently not working under macOS Monterey)
+- Docking Station DVI Port (Currently not working under macOS Monterey)
+- Docking Station DisplayPort Audio (Currently not working under macOS Monterey)
 - [DRM content](https://github.com/acidanthera/OpenCorePkg/releases) 
 
 ## What doesn't work:
