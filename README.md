@@ -7,13 +7,13 @@
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.8-red)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6-green)](https://www.apple.com/macos/monterey/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>OpenCore Version: </strong>0.8.3
+   <strong>OpenCore Version: </strong>0.8.5
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
    <br />
@@ -33,6 +33,8 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
+**10/12/2022** : Updated from OpenCore 0.8.3 to OpenCore 0.8.5                                                          
+                                                           
 **09/29/2022** : Added TrackPoint support and fixed the Instant Wake Issue when in sleep mode.
 
 **09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
@@ -86,16 +88,16 @@
 - Power Management
 - USB Ports
 - LAN
-- DisplayPort
+- DisplayPort (Currently not working under macOS Monterey)
 - VGA
 - Wireless and Bluetooth
 - SD Card Reader
 - Docking Station USB Ports
 - Docking Station LAN
-- Docking Station DisplayPort
-- Docking Station VGA Port
-- Docking Station DVI Port
-- Docking Station DisplayPort Audio
+- Docking Station DisplayPort (Currently not working under macOS Monterey)
+- Docking Station VGA Port (Currently not working under macOS Monterey)
+- Docking Station DVI Port (Currently not working under macOS Monterey)
+- Docking Station DisplayPort Audio (Currently not working under macOS Monterey)
 - [DRM content](https://github.com/acidanthera/OpenCorePkg/releases) 
 
 ## What doesn't work:
