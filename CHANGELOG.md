@@ -10,6 +10,17 @@
 
 #
 
+### OpenCore Version 0.8.5 (10.12.2022)
+
+- OpenCore to ```0.8.5```
+- Kext Changes
+  - New / Updated
+    - No new kexts were necessary.
+- Config Changes
+    - Patched the ```Instant Wake``` bug.
+- Other Changes
+  - Trying to get video output to work....
+
 ### OpenCore Version 0.8.3 IWFIX Edition (09.29.2022)
 
 - OpenCore to ```0.8.3```
