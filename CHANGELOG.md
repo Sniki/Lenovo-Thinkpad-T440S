@@ -10,6 +10,18 @@
 
 #
 
+### OpenCore 0.8.5 (VOFIX) Release
+
+- OpenCore to ```0.8.5```
+- Kext Changes
+  - New / Updated
+    - No new kexts were necessary.
+- Config Changes
+    - Changed SMBIOS from ```MacBookPro11,5``` to ```MacBookPro12,1```.
+    - Added support for all Video Output ports.
+- Other Changes
+  - None
+
 ### OpenCore Version 0.8.5 (10.12.2022)
 
 - OpenCore to ```0.8.5```
