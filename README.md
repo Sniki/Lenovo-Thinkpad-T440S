@@ -5,7 +5,7 @@
 
 
 
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.6.8-red)](https://www.apple.com/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7-red)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6-green)](https://www.apple.com/macos/monterey/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-blue)](https://github.com/acidanthera/OpenCorePkg)
 
@@ -32,6 +32,8 @@
 <details>  
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
+
+**10/14/2022** : Changed the SMBIOS from ```MacBookPro11,5``` to  ```MacBookPro12,1```  and finally added support for video out in macOS Monterey.
 
 **10/12/2022** : Updated from OpenCore 0.8.3 to OpenCore 0.8.5                                                          
                                                            
@@ -88,16 +90,16 @@
 - Power Management
 - USB Ports
 - LAN
-- DisplayPort (Currently not working under macOS Monterey)
+- DisplayPort
 - VGA
 - Wireless and Bluetooth
 - SD Card Reader
 - Docking Station USB Ports
 - Docking Station LAN
-- Docking Station DisplayPort (Currently not working under macOS Monterey)
-- Docking Station VGA Port (Currently not working under macOS Monterey)
-- Docking Station DVI Port (Currently not working under macOS Monterey)
-- Docking Station DisplayPort Audio (Currently not working under macOS Monterey)
+- Docking Station DisplayPort 
+- Docking Station VGA Port 
+- Docking Station DVI Port 
+- Docking Station DisplayPort Audio 
 - [DRM content](https://github.com/acidanthera/OpenCorePkg/releases) 
 
 ## What doesn't work:
