@@ -33,6 +33,8 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
+**10/14/2022** : Changed the SMBIOS from ```MacBookPro11,5``` to  ```MacBookPro12,1```  and finally added support for video out in macOS Monterey.
+
 **10/12/2022** : Updated from OpenCore 0.8.3 to OpenCore 0.8.5                                                          
                                                            
 **09/29/2022** : Added TrackPoint support and fixed the Instant Wake Issue when in sleep mode.
@@ -88,16 +90,16 @@
 - Power Management
 - USB Ports
 - LAN
-- DisplayPort (Currently not working under macOS Monterey)
+- DisplayPort
 - VGA
 - Wireless and Bluetooth
 - SD Card Reader
 - Docking Station USB Ports
 - Docking Station LAN
-- Docking Station DisplayPort (Currently not working under macOS Monterey)
-- Docking Station VGA Port (Currently not working under macOS Monterey)
-- Docking Station DVI Port (Currently not working under macOS Monterey)
-- Docking Station DisplayPort Audio (Currently not working under macOS Monterey)
+- Docking Station DisplayPort 
+- Docking Station VGA Port 
+- Docking Station DVI Port 
+- Docking Station DisplayPort Audio 
 - [DRM content](https://github.com/acidanthera/OpenCorePkg/releases) 
 
 ## What doesn't work:
