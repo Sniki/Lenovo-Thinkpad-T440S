@@ -10,7 +10,7 @@
 
 #
 
-### OpenCore 0.8.5 (VOFIX) Release
+### OpenCore 0.8.5 VOFIX Edition
 
 - OpenCore to ```0.8.5```
 - Kext Changes
