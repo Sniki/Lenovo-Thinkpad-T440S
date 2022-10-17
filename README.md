@@ -115,7 +115,8 @@
 <summary><strong>Photos 📷 </strong></summary>
 </br>
 
-![zj1nhx2v3eu91](https://user-images.githubusercontent.com/72415505/196229538-a42ecd01-d429-4c48-bf87-869cb307efe3.png)
+![zj1nhx2v3eu91](https://user-images.githubusercontent.com/72415505/196230400-86fbab37-8249-403a-b081-901ecf687309.png)
+
 
 ![IMG_0864 copy](https://user-images.githubusercontent.com/72415505/193050341-594325eb-5070-439d-adf6-0675eb9205e4.jpg)
 
