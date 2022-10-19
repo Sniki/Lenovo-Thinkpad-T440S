@@ -3113,23 +3113,23 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02710600J9GDVV1M</string>
+			<string>C02505802CDGDQPCB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
 			<data>
-			nE/awzes
+			YPgdH/DW
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro12,1</string>
+			<string>MacBookPro11,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TD3ZHH1DP</string>
+			<string>C02P6VY1G8WN</string>
 			<key>SystemUUID</key>
-			<string>EF474A4C-0DCB-4333-80DB-5E5CC05F5CD8</string>
+			<string>DC0869B9-FD76-4A88-9570-02BE927867A0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -3191,7 +3191,7 @@
 			<key>AudioOutMask</key>
 			<integer>1</integer>
 			<key>AudioSupport</key>
-			<true/>
+			<false/>
 			<key>DisconnectHda</key>
 			<false/>
 			<key>MaximumGain</key>
@@ -3201,7 +3201,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-55</integer>
 			<key>PlayChime</key>
-			<string>Enabled</string>
+			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -3307,18 +3307,6 @@
 				<key>Path</key>
 				<string>ToggleSipEntry.efi</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>BiosVideo.efi</string>
-			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -3344,13 +3332,13 @@
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ConsoleMode</key>
-			<string>Max</string>
+			<string></string>
 			<key>DirectGopRendering</key>
-			<true/>
+			<false/>
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<string>Enabled</string>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
@@ -3368,7 +3356,7 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
-			<true/>
+			<false/>
 			<key>UIScale</key>
 			<integer>0</integer>
 		</dict>
