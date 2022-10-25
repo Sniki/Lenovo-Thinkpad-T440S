@@ -10,6 +10,18 @@
 
 #
 
+### OpenCore Version 0.8.3 Stable Edition (10.25.22)
+
+- OpenCore to ```0.8.3```
+- Kext Changes
+  - New / Updated
+    - No new kexts were necessary.
+- Config Changes
+    - Changed SMBIOS from ```MacBookPro11,4``` to ```MacBookPro12,1```.
+    - Added support for all Video Output ports.
+- Other Changes
+  - The EFI is now 100% stable.
+
 ### OpenCore Version 0.8.5 VOFIX Edition (10.14.2022)
 
 - OpenCore to ```0.8.5```
