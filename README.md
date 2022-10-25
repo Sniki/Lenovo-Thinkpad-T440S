@@ -6,9 +6,9 @@
 
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7-red)](https://www.apple.com/macos/big-sur/)
-[![macOS](https://img.shields.io/badge/macOS-Monterey_12.6-green)](https://www.apple.com/macos/monterey/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-blue)](https://github.com/acidanthera/OpenCorePkg)
-
+[![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.1-green)](https://www.apple.com/macos/monterey/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-silver)](https://github.com/acidanthera/OpenCorePkg)
 
 <p align="center">
    <strong>Status: Maintained</strong>
