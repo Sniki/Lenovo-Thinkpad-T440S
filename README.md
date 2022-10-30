@@ -49,6 +49,9 @@
 
 </details>
 
+<a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/blob/main/macOS%20Ventura%20Support.md"><strong>
+macOS Ventura Support Information »</strong></a>
+
 
 <details>  
 <summary><strong>My ThinkPad T440s Hardware Specs 💻</strong></summary>
