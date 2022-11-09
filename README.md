@@ -33,6 +33,8 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
+**11/09/2022** : Changed the SMBIOS from ```MacBookPro12,1``` to ```MacBookPro14,1``` for better power management.
+
 **10/25/2022** : Downgraded back to ```OpenCore 0.8.3``` to avoid kernel panics and improve stability.
                                                            
 **10/14/2022** : Changed the SMBIOS from ```MacBookPro11,5``` to  ```MacBookPro12,1```  and finally added support for video out in macOS Monterey.
