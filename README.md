@@ -50,6 +50,8 @@
 </details>
 
 
+
+
 <details>  
 <summary><strong>My ThinkPad T440s Hardware Specs 💻</strong></summary>
 </br>
@@ -128,7 +130,26 @@
 
 </details>
 
+</details>
 
+<details>  
+<summary><strong>macOS Ventura Compatibility </strong></summary>
+</br>
+
+> **Warning**
+> macOS Ventura support is currently in ALPHA which means it is extremely unstable. Use at your own risk!
+
+<a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/blob/main/macOS%20Ventura%20Support.md"><strong>
+macOS Ventura Support »</strong></a>
+
+</details>
+
+
+
+
+
+
+</details>
 
 #
 ## Lenovo ThinkPad T440s Hackintosh Guide
