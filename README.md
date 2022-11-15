@@ -7,13 +7,13 @@
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7-red)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.1-green)](https://www.apple.com/macos/monterey/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-silver)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.6-blue)](https://github.com/acidanthera/OpenCorePkg)
+
 
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>OpenCore Version: </strong>0.8.3 (Stable) / 0.8.5 (Unstable)
+   <strong>OpenCore Version: </strong>0.8.6
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
    <br />
@@ -32,6 +32,8 @@
 <details>  
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
+
+**11/14/2022** : Updated to ```OpenCore 0.8.6``` . 
 
 **11/09/2022** : Changed the SMBIOS from ```MacBookPro12,1``` to ```MacBookPro14,1``` for better power management.
 
