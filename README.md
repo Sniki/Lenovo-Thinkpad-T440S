@@ -427,3 +427,4 @@ You can specify other country codes like: **US**, **CN**, **#a**, etc by going i
 - [Sniki](https://github.com/Sniki) for creating the original OC EFI files to make this hackintosh project possible.
 - [ShiftHackZ](https://github.com/ShiftHackZ) and [valnoxy](https://github.com/valnoxy) for making macOS Monterey on a ThinkPad T440s possible.
 - [mswgen](https://github.com/mswgen) for the OpenCore Updater application for macOS.
+- [chendianVista](https://github.com/chendianVista) for making macOS Ventura on a ThinkPad T440s possible.
