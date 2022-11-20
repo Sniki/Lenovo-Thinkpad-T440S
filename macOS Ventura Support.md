@@ -1,4 +1,4 @@
-![repository-open-graph-template new](https://user-images.githubusercontent.com/72415505/193119176-317c93a2-17ad-49b2-bc41-8039ca08a723.png)
+![repository-open-graph-template-ventura](https://user-images.githubusercontent.com/72415505/202905723-309fb569-f33e-4483-b5ec-31555e5edee5.png)
 
 
 <h3 align="center">Lenovo ThinkPad T440s macOS Ventura Support</h3>
