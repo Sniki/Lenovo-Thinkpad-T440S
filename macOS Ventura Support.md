@@ -26,7 +26,7 @@
     - Changed SMBIOS from ```MacBookPro12,1``` to ```MacBookPro14,1```
 - Other Changes
   - This EFI is more stable.
-  - Everything works minus wifi.
+  - HeliPort is required for the WiFi to work.
   
 ### OpenCore Version 0.8.3 Ventura (10.30.22)
 
